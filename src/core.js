@@ -39,6 +39,7 @@ function selectDailyEdition(items,prefs){
  const eligible=items.filter(i=>isPublishable(i)&&(i.category!=='local'||i.region===prefs.region)&&(i.category!=='discovery'||!(prefs.topics||[]).includes(i.topic))).sort((a,b)=>score(b)-score(a)||a.id.localeCompare(b.id));
  const selected=[];const counts=Object.fromEntries(keys.map(k=>[k,0]));const filled={...counts};const sources={};const seen=new Set();
  const add=item=>{const identity=item.url?safeUrl(item.url)?.split('?')[0]:item.id;if(seen.has(identity)||(sources[item.sourceId]||0)>=Math.ceil(dailyLimit/2))return false;seen.add(identity);selected.push(item);counts[item.category]++;sources[item.sourceId]=(sources[item.sourceId]||0)+1;return true;};
+ if(prefs.cyberFocus!==false)for(const item of eligible.filter(i=>i.topic==='ความปลอดภัยไซเบอร์').slice(0,3))add(item);
  if(prefs.goldFocus!==false){const focus=[...eligible.filter(i=>i.goldRelevance==='direct').slice(0,3),...eligible.filter(i=>i.goldRelevance==='macro').slice(0,2)];for(const item of focus)add(item);}
  for(const key of keys)for(const item of eligible){if(counts[key]>=targets[key])break;if(item.category===key)add(item);}
  if(prefs.fillGaps!==false)for(const item of eligible){if(selected.length>=dailyLimit)break;if(add(item))filled[item.category]++;}

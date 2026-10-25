@@ -17,3 +17,9 @@ test('gold focus reserves room within daily limit, can be disabled, never fabric
  assert.equal(selectEdition(items.slice(0,40),{dailyLimit:24}).items.filter(i=>i.goldRelevance).length,0);
  assert.equal(selectEdition(items,{dailyLimit:24}).items.length,new Set(focused.items.map(i=>i.id)).size);
 });
+
+test('cyber focus coexists with gold within daily budget and can be disabled',()=>{
+ const items=Array.from({length:45},(_,n)=>({id:String(n).padStart(2,'0'),status:'approved',category:'world',sourceId:'s'+n%8,topic:n>=39&&n<42?'ความปลอดภัยไซเบอร์':'สังคม',goldRelevance:n>=42?'direct':null,scores:{impact:.5,urgency:.5,publicValue:.5,geography:.5,freshness:1-n/100}}));
+ for(const dailyLimit of [20,24,30]){const result=selectEdition(items,{dailyLimit});assert.equal(result.items.length,dailyLimit);assert.equal(result.items.filter(i=>i.topic==='ความปลอดภัยไซเบอร์').length,3);assert.equal(result.items.filter(i=>i.goldRelevance==='direct').length,3);assert.equal(new Set(result.items.map(i=>i.id)).size,dailyLimit);}
+ assert.equal(selectEdition(items,{dailyLimit:24,cyberFocus:false}).items.filter(i=>i.topic==='ความปลอดภัยไซเบอร์').length,0);
+});

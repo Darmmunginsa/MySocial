@@ -22,3 +22,5 @@ button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{ou
 @media(max-width:720px){.intro h1{font-size:27px}.horizon-art{opacity:.6}.coverage-list strong{font-size:13px}.card-summary{color:#4d6182}.brand{font-size:14px}.story-title{font-size:20px}}
 
 .gold-focus{margin:1.2rem 0;padding:1.2rem;border:1px solid #aa965b;border-radius:12px;background:linear-gradient(120deg,#fff9df,#edf2fc)}.gold-focus .source-link{display:block;margin:.8rem 0}.gold-focus h3{color:#665118}
+
+.cyber-focus{border-color:#8a9ade;background:linear-gradient(120deg,#e6faff,#f2edff)}.cyber-focus h3{color:#23466d}
