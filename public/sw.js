@@ -1,6 +1,6 @@
-const CACHE='oh-prototype-v3';
+const CACHE='oh-prototype-v4';
 const BASE=new URL('./',self.location.href);
-const ASSETS=['./','./index.html','./src/app.js','./src/core.js','./src/style.css','./data/edition.json','./data/ranking-policy.json','./icon.svg','./manifest.webmanifest'].map(p=>new URL(p,BASE).href);
+const ASSETS=['./','./index.html','./src/app.js','./src/core.js','./src/style.css','./public/data/edition.json','./public/data/ranking-policy.json','./public/icon.svg','./public/manifest.webmanifest'].map(p=>new URL(p,BASE).href);
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS))));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const name of await caches.keys())if(name.startsWith('oh-prototype-')&&name!==CACHE)await caches.delete(name);await self.clients.claim();})()));
 self.addEventListener('fetch',event=>{
