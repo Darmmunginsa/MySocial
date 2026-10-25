@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.sites-runtime/
+.sites-checkout/
+work/
+private/
+dist/
+*.tar.gz
+*.zip

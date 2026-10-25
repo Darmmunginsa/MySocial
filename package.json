@@ -1,0 +1,13 @@
+{
+  "name": "open-horizon",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test",
+    "draft": "node --env-file-if-exists=.env scripts/draft.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

@@ -1,0 +1,10 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
+import {selectEdition,score,safeUrl,validateEdition} from '../src/core.js';
+const data=JSON.parse(readFileSync(new URL('../public/data/edition.json',import.meta.url)));
+test('same inputs give same edition and clicks do not affect ranking',()=>{const prefs={region:'เชียงใหม่',topics:[],quota:3};const a=selectEdition(data.items,prefs);assert.deepEqual(a,selectEdition(data.items,prefs));const b=selectEdition(data.items.map((i,n)=>({...i,clicks:1000-n})),prefs);assert.deepEqual(a.items.map(i=>i.id),b.items.map(i=>i.id));assert.equal(a.items.length,12);});
+test('no silent replacement of missing local coverage',()=>{const e=selectEdition(data.items,{region:'none',quota:3});assert.equal(e.counts.local,0);assert.equal(e.items.length,9);});
+test('local selection and explicit interests respected',()=>{const e=selectEdition(data.items,{region:'ขอนแก่น',topics:['วิทยาศาสตร์'],quota:3});assert(e.items.filter(i=>i.category==='local').every(i=>i.region==='ขอนแก่น'));assert(!e.items.some(i=>i.category==='discovery'&&i.topic==='วิทยาศาสตร์'));});
+test('unapproved content is never published',()=>{assert.equal(selectEdition(data.items.map(i=>({...i,status:'pending'}))).items.length,0);});
+test('unsafe links are rejected',()=>{assert.equal(safeUrl('javascript:alert(1)'),null);assert.equal(safeUrl('https://user:pass@example.com'),null);assert.equal(safeUrl('https://example.com/a'),'https://example.com/a');});
+test('live edition requires evidence, valid scores and review',()=>{assert.equal(validateEdition(data),data);assert.throws(()=>validateEdition({...data,demo:false}));assert.throws(()=>validateEdition({...data,items:[{...data.items[0],scores:{impact:9}}]}));});
+test('scores are bounded',()=>{assert(score(data.items[0])>=0&&score(data.items[0])<=1);});

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#153f37">
+  <meta name="description" content="Open Horizon — ข่าวที่สำคัญกับโลกและชีวิตคุณ พร้อมที่มาและเหตุผลที่ตรวจสอบได้">
+  <title>Open Horizon — เปิดขอบฟ้าการรับรู้</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./src/style.css">
+  <script type="module" src="./src/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#stories">ข้ามไปยังข่าว</a>
+  <header class="topbar"><a class="brand" href="./" aria-label="Open Horizon หน้าหลัก"><span class="brand-icon">◒</span><span>OPEN HORIZON<small>เปิดขอบฟ้าการรับรู้</small></span></a><nav aria-label="เมนูหลัก"><button class="nav active" data-view="today">ฉบับวันนี้</button><button class="nav" data-view="saved">บันทึกไว้ <span id="saved-count">0</span></button><button class="nav" id="settings-open">การรับรู้ของฉัน <span aria-hidden="true">↗</span></button></nav></header>
+  <main>
+    <section class="intro"><div class="eyebrow"><span class="live-dot"></span> INFORMATION AUTONOMY · ฉบับทดลอง 01</div><h1>โลกกว้างกว่าสิ่งที่เราชอบ<span>เปิดรับรู้ ในแบบที่เราเลือก</span></h1><p class="intro-copy">ข่าวสำคัญรอบโลก เรื่องใกล้ตัว และมุมที่คุณอาจไม่เคยเห็น<br>มีที่มา มีเหตุผล และมีจุดที่อ่านจบ</p><div class="intro-footer"><span>โลก · ไทย · ท้องถิ่น · เปิดขอบฟ้า</span><button id="policy-open" class="text-button">รู้จักวิธีคัดเลือกของเรา <span aria-hidden="true">↗</span></button></div><div class="horizon-art" aria-hidden="true"><div class="sun"></div><div class="line l1"></div><div class="line l2"></div><div class="line l3"></div><span>EXPAND YOUR PERSPECTIVE</span></div></section>
+    <aside id="data-notice" class="notice"><strong>ต้นแบบ · ข้อมูลตัวอย่างทั้งหมด</strong><span>ใช้ทดลองหน้าตาและกติกาคัดเลือก ยังไม่ใช่ข่าวจริง และยังไม่ได้เรียก OpenAI</span></aside>
+    <div id="network-status" class="network" role="status" hidden>ออฟไลน์ — กำลังอ่านฉบับที่เคยเปิดไว้ ข้อมูลอาจเปลี่ยนแปลงแล้ว</div>
+    <section class="edition-head"><div><div class="eyebrow" id="edition-date">YOUR DAILY PERSPECTIVE</div><h2 id="view-title">ฉบับของคุณวันนี้ <span id="story-count"></span></h2></div><div class="edition-controls"><label>พื้นที่ <select id="region"><option value="none">ยังไม่เลือกจังหวัด</option><option value="กรุงเทพมหานคร">กรุงเทพมหานคร</option><option value="เชียงใหม่">เชียงใหม่</option><option value="ขอนแก่น">ขอนแก่น</option></select></label><label>เรียง <select id="sort"><option value="importance">ความสำคัญ</option><option value="latest">เวลาเผยแพร่</option></select></label></div></section>
+    <div class="filterbar" role="group" aria-label="กรองหมวดข่าว"><button data-category="all" class="filter selected">ทั้งหมด</button><button data-category="world" class="filter">โลก</button><button data-category="thailand" class="filter">ไทย</button><button data-category="local" class="filter">ท้องถิ่น</button><button data-category="discovery" class="filter">เปิดขอบฟ้า</button></div>
+    <div class="coverage" id="coverage" role="status"></div>
+    <section id="stories" class="stories" aria-label="รายการข่าว"></section>
+    <section class="end-note"><span class="end-symbol" aria-hidden="true">◒</span><h3>รับรู้พอ แล้วกลับไปใช้ชีวิต</h3><p>คุณมาถึงท้ายฉบับนี้แล้ว ไม่มีฟีดที่เลื่อนต่อไม่จบ</p><small>ต้นแบบนี้ไม่มีการติดตามการคลิกหรือเวลาอ่านเพื่อจัดอันดับ</small></section>
+  </main>
+  <footer><span>◒ OPEN HORIZON</span><p>สิทธิในการรับรู้ เริ่มจากสิทธิในการเลือก</p><button id="reset" class="text-button">ล้างการตั้งค่าและรายการบันทึกในเครื่องนี้</button></footer>
+  <dialog id="detail"><div class="dialog-top"><span class="eyebrow">BEHIND THE STORY</span><button class="close" aria-label="ปิดหน้ารายละเอียด">×</button></div><div id="detail-body"></div></dialog>
+  <dialog id="settings"><div class="dialog-top"><span class="eyebrow">YOUR INFORMATION, YOUR CHOICE</span><button class="close" aria-label="ปิดการตั้งค่า">×</button></div><h2>การรับรู้ของฉัน</h2><p>เลือกสิ่งที่สนใจด้วยตัวเอง เราไม่อนุมานจากสิ่งที่คุณคลิก</p><form id="preferences"><fieldset><legend>หัวข้อที่สนใจ</legend><div class="topic-options" id="topic-options"></div></fieldset><label class="field-label">จำนวนเรื่องต่อหมวด <select name="quota"><option value="3">3 เรื่อง — สูงสุด 12 เรื่องต่อฉบับ</option><option value="2">2 เรื่อง — สูงสุด 8 เรื่องต่อฉบับ</option><option value="1">1 เรื่อง — สูงสุด 4 เรื่องต่อฉบับ</option></select></label><p class="subtle">หมวดเปิดขอบฟ้าจะคัดจากหัวข้อที่ไม่ได้เลือก หากยังไม่เลือกหัวข้อ เราจะกระจายหัวข้อให้ โดยไม่อ้างว่ารู้ความสนใจของคุณ</p><button class="primary" type="submit">ใช้การตั้งค่านี้</button></form></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body></html>

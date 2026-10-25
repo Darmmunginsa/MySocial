@@ -1,0 +1,7 @@
+version,key,value,description
+0.1.0,impact,0.30,ผลกระทบ
+0.1.0,urgency,0.20,ความเร่งด่วน
+0.1.0,publicValue,0.20,ประโยชน์สาธารณะ
+0.1.0,geography,0.15,ความเกี่ยวข้องกับขอบเขตข่าว
+0.1.0,freshness,0.15,ความสด
+0.1.0,quota_per_category,3,จำนวนเรื่องเริ่มต้นต่อหมวด

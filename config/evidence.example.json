@@ -1,0 +1,16 @@
+[
+  {
+    "id": "replace-with-stable-event-id",
+    "sourceId": "source-001",
+    "sourceName": "ชื่อแหล่งข่าวที่ตรวจสิทธิแล้ว",
+    "url": "https://example.com/replace-with-original-article",
+    "category": "thailand",
+    "topic": "สังคม",
+    "region": null,
+    "title": "ใส่หัวข้อต้นทาง",
+    "publishedAt": "2026-10-25T00:00:00Z",
+    "rightsApproved": false,
+    "text": "ใส่ข้อความหลักฐานที่มีสิทธิส่งให้ AI ตัวอย่างนี้ยังใช้กับ API ไม่ได้จนกว่าจะเปลี่ยนเป็นข้อมูลจริงและตรวจสิทธิ",
+    "scores": {"impact": 0.5, "urgency": 0.5, "publicValue": 0.5, "geography": 0.5, "freshness": 0.5}
+  }
+]

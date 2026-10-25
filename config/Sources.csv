@@ -1,0 +1,2 @@
+source_id,name,feed_url,category,region,language,rights_status,enabled,notes
+source-001,ใส่แหล่งข่าว,,,,th,pending,FALSE,ตรวจสิทธิการดึงและส่งข้อความให้ AI ก่อนเปิดใช้งาน
