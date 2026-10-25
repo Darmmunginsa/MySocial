@@ -7,9 +7,9 @@
   <title>Open Horizon — เปิดขอบฟ้าการรับรู้</title>
   <link rel="icon" href="./public/icon.svg" type="image/svg+xml">
   <link rel="manifest" href="./public/manifest.webmanifest">
-  <link rel="stylesheet" href="./src/style.css?v=0.5.0">
-  <link rel="stylesheet" href="./src/cyber.css?v=0.5.0">
-  <script type="module" src="./src/app.js?v=0.5.0"></script>
+  <link rel="stylesheet" href="./src/style.css?v=0.6.0">
+  <link rel="stylesheet" href="./src/cyber.css?v=0.6.0">
+  <script type="module" src="./src/app.js?v=0.6.0"></script>
 </head>
 <body>
   <a class="skip" href="#stories">ข้ามไปยังข่าว</a>
@@ -27,6 +27,6 @@
   </main>
   <footer><span>◒ OPEN HORIZON</span><p>สิทธิในการรับรู้ เริ่มจากสิทธิในการเลือก</p><button id="reset" class="text-button">ล้างการตั้งค่าและรายการบันทึกในเครื่องนี้</button></footer>
   <dialog id="detail"><div class="dialog-top"><span class="eyebrow">BEHIND THE STORY</span><button class="close" aria-label="ปิดหน้ารายละเอียด">×</button></div><div id="detail-body"></div></dialog>
-  <dialog id="settings"><div class="dialog-top"><span class="eyebrow">YOUR INFORMATION, YOUR CHOICE</span><button class="close" aria-label="ปิดการตั้งค่า">×</button></div><h2>การรับรู้ของฉัน</h2><p>เลือกสิ่งที่สนใจด้วยตัวเอง เราไม่อนุมานจากสิ่งที่คุณคลิก</p><form id="preferences"><fieldset><legend>หัวข้อที่สนใจ</legend><div class="topic-options" id="topic-options"></div></fieldset><label class="field-label">จำนวนเรื่องต่อวัน <select name="dailyLimit"><option value="20">20 เรื่องต่อวัน</option><option value="24">24 เรื่องต่อวัน — ค่าเริ่มต้น</option><option value="30">30 เรื่องต่อวัน</option></select></label><label class="topic-option"><input type="checkbox" name="fillGaps"> เติมข่าวที่ผ่านเงื่อนไขจากหมวดอื่น เมื่อบางหมวดข่าวไม่พอ พร้อมบอกจำนวนที่เติม</label><p class="subtle">หมวดเปิดขอบฟ้าจะคัดจากหัวข้อที่ไม่ได้เลือก หากยังไม่เลือกหัวข้อ เราจะกระจายหัวข้อให้ โดยไม่อ้างว่ารู้ความสนใจของคุณ</p><button class="primary" type="submit">ใช้การตั้งค่านี้</button></form></dialog>
+  <dialog id="settings"><div class="dialog-top"><span class="eyebrow">YOUR INFORMATION, YOUR CHOICE</span><button class="close" aria-label="ปิดการตั้งค่า">×</button></div><h2>การรับรู้ของฉัน</h2><p>เลือกสิ่งที่สนใจด้วยตัวเอง เราไม่อนุมานจากสิ่งที่คุณคลิก</p><form id="preferences"><label class="topic-option"><input type="checkbox" name="goldFocus"> เน้นติดตามทองคำ: กันพื้นที่ข่าวทองคำสูงสุด 3 เรื่อง และปัจจัยมหภาค 2 เรื่อง ภายในจำนวนข่าวต่อวัน</label><fieldset><legend>หัวข้อที่สนใจ</legend><div class="topic-options" id="topic-options"></div></fieldset><label class="field-label">จำนวนเรื่องต่อวัน <select name="dailyLimit"><option value="20">20 เรื่องต่อวัน</option><option value="24">24 เรื่องต่อวัน — ค่าเริ่มต้น</option><option value="30">30 เรื่องต่อวัน</option></select></label><label class="topic-option"><input type="checkbox" name="fillGaps"> เติมข่าวที่ผ่านเงื่อนไขจากหมวดอื่น เมื่อบางหมวดข่าวไม่พอ พร้อมบอกจำนวนที่เติม</label><p class="subtle">หมวดเปิดขอบฟ้าจะคัดจากหัวข้อที่ไม่ได้เลือก หากยังไม่เลือกหัวข้อ เราจะกระจายหัวข้อให้ โดยไม่อ้างว่ารู้ความสนใจของคุณ</p><button class="primary" type="submit">ใช้การตั้งค่านี้</button></form></dialog>
   <div id="toast" class="toast" role="status" hidden></div>
 </body></html>

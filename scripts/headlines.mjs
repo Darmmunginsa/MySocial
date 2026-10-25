@@ -1,9 +1,20 @@
 import {createHash} from 'node:crypto';
 import {readFileSync,writeFileSync,renameSync} from 'node:fs';
 import {pathToFileURL} from 'node:url';
+import {classify} from './classify.mjs';
 import {safeUrl,validateEdition} from '../src/core.js';
 const yesterday=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Bangkok',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(Date.now()-86400000));
 export const feeds=[{id:'bbc-thai',publisherId:'bbc',name:'BBC News ไทย',url:'https://feeds.bbci.co.uk/thai/rss.xml',hosts:['www.bbc.com','www.bbc.co.uk','bbc.com'],language:'th'},{id:'thaipbs',name:'Thai PBS',url:'https://www.thaipbs.th/news/today',hosts:['www.thaipbs.th'],language:'th',format:'html'},{id:'nasa',name:'NASA',url:'https://www.nasa.gov/feed/',hosts:['www.nasa.gov','science.nasa.gov','nasa.gov'],language:'en'},{id:'bbc-world',publisherId:'bbc',name:'BBC News World',url:'https://feeds.bbci.co.uk/news/world/rss.xml',hosts:['www.bbc.com','www.bbc.co.uk','bbc.com'],language:'en'},{id:'thaipbs-archive',publisherId:'thaipbs',name:'Thai PBS',url:'https://www.thaipbs.th/news/archive/'+yesterday,hosts:['www.thaipbs.th'],language:'th',format:'html'}];
+feeds.push(...[
+{id:'bbc-tech',publisherId:'bbc',name:'BBC Technology',url:'https://feeds.bbci.co.uk/news/technology/rss.xml',hosts:['www.bbc.com','www.bbc.co.uk','bbc.com'],topic:'เทคโนโลยี'},
+{id:'bbc-business',publisherId:'bbc',name:'BBC Business',url:'https://feeds.bbci.co.uk/news/business/rss.xml',hosts:['www.bbc.com','www.bbc.co.uk','bbc.com'],topic:'เศรษฐกิจ'},
+{id:'bleepingcomputer',name:'BleepingComputer',url:'https://www.bleepingcomputer.com/feed/',hosts:['www.bleepingcomputer.com'],topic:'ความปลอดภัยไซเบอร์'},
+{id:'fed',name:'Federal Reserve',url:'https://www.federalreserve.gov/feeds/press_all.xml',hosts:['www.federalreserve.gov'],topic:'เศรษฐกิจ'},
+{id:'cnbc-markets',publisherId:'cnbc',name:'CNBC Markets',url:'https://www.cnbc.com/id/100003114/device/rss/rss.html',hosts:['www.cnbc.com'],topic:'เศรษฐกิจ'},
+{id:'cnbc-top',publisherId:'cnbc',name:'CNBC',url:'https://www.cnbc.com/id/15839135/device/rss/rss.html',hosts:['www.cnbc.com'],topic:'เศรษฐกิจ'},
+{id:'sciencedaily',name:'ScienceDaily',url:'https://www.sciencedaily.com/rss/top.xml',hosts:['www.sciencedaily.com'],topic:'วิทยาศาสตร์'},
+{id:'fxstreet',name:'FXStreet',url:'https://www.fxstreet.com/rss/news',hosts:['www.fxstreet.com'],topic:'เศรษฐกิจ'}
+].map(x=>({...x,language:'en'})));
 export function plain(value){return value.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,'$1').replace(/<[^>]*>/g,'').replace(/&#(x[0-9a-f]+|[0-9]+);/gi,(_,n)=>{const c=n[0].toLowerCase()==='x'?parseInt(n.slice(1),16):Number(n);return c>0&&c<=0x10ffff?String.fromCodePoint(c):'';}).replace(/&(amp|lt|gt|quot|apos);/g,(_,x)=>({amp:'&',lt:'<',gt:'>',quot:'"',apos:"'"}[x])).trim();}
 export function parseRSS(xml,source,now=new Date()){
  if(typeof xml!=='string'||xml.length>2000000||/<!DOCTYPE|<!ENTITY/i.test(xml)||!/<rss\b/i.test(xml))throw new Error('Unsupported RSS document');
@@ -17,8 +28,8 @@ export function parseRSS(xml,source,now=new Date()){
   const foreign=/สหรัฐ|อเมริกา|ทรัมป์|จีน|ญี่ปุ่น|เกาหลี|ยูเครน|รัสเซีย|อิสราเอล|กาซา|อังกฤษ|ยุโรป|เมียนมา|ไต้หวัน|อิหร่าน|ปาเลสไตน์|อาเซียน|ฝรั่งเศส|อินเดีย|ปารีส/.test(title);
   const explicitThai=/คนไทย|ประเทศไทย|รัฐบาลไทย|เศรษฐกิจไทย|สังคมไทย/.test(title);
   const category=source.id==='nasa'?'discovery':region?'local':(source.id==='thaipbs'||source.publisherId==='thaipbs')&&!foreign?'thailand':explicitThai?'thailand':'world';
-  const topic=source.id==='nasa'?'วิทยาศาสตร์':/ฝุ่น|น้ำท่วม|อากาศ|โลกร้อน/.test(title)?'สิ่งแวดล้อม':/เศรษฐกิจ|เงิน|ราคา|ภาษี/.test(title)?'เศรษฐกิจ':/สุขภาพ|โรค|แพทย์/.test(title)?'สุขภาพ':'สังคม';
-  result.push({id:'feed-'+createHash('sha256').update(url).digest('hex').slice(0,20),kind:'headline',status:'metadata',title,summary:`พาดหัวจาก ${source.name} — เปิดอ่านรายละเอียดและบริบทฉบับเต็มที่ต้นทาง`,url,sourceId:source.publisherId||source.id,sourceName:source.name,feedUrl:source.url,language:source.language,publishedAt:new Date(time).toISOString(),fetchedAt:now.toISOString(),category,topic,region,reason:`รับพาดหัวจาก ${source.name} · หมวดเบื้องต้นตามแหล่งและคำในพาดหัว${region?'ที่ระบุพื้นที่ตรงกับจังหวัดที่เลือก':''} · เรียงความสดโดยไม่ใช้ยอดคลิก`,scores:{impact:.5,urgency:.5,publicValue:.5,geography:.5,freshness:Math.exp(-Math.max(0,age)/48)},sentences:[],evidence:[]});
+  const {topic,goldRelevance}=classify(title,source.id==='nasa'?{...source,topic:'วิทยาศาสตร์'}:source);
+  result.push({id:'feed-'+createHash('sha256').update(url).digest('hex').slice(0,20),kind:'headline',status:'metadata',title,summary:`พาดหัวจาก ${source.name} — เปิดอ่านรายละเอียดและบริบทฉบับเต็มที่ต้นทาง`,url,sourceId:source.publisherId||source.id,sourceName:source.name,feedUrl:source.url,language:source.language,publishedAt:new Date(time).toISOString(),fetchedAt:now.toISOString(),category,topic,goldRelevance,region,reason:`รับพาดหัวจาก ${source.name} · หมวดเบื้องต้นตามแหล่งและคำในพาดหัว${region?'ที่ระบุพื้นที่ตรงกับจังหวัดที่เลือก':''} · เรียงความสดโดยไม่ใช้ยอดคลิก`,scores:{impact:.5,urgency:.5,publicValue:.5,geography:.5,freshness:Math.exp(-Math.max(0,age)/48)},sentences:[],evidence:[]});
   if(result.length>=60)break;
  }
  return result;
@@ -41,8 +52,9 @@ export async function refresh(){
  }));
  const items=[];const sourceStatus=[];for(let i=0;i<results.length;i++){const result=results[i];if(result.status==='fulfilled'){items.push(...result.value);sourceStatus.push({source:feeds[i].name,status:'ok',count:result.value.length});}else sourceStatus.push({source:feeds[i].name,status:'unavailable'});}
  if(!items.length)throw new Error('All feeds failed. Previous edition preserved.');
- const edition=validateEdition({demo:false,mode:'headlines',editionId:'headlines-'+Date.now(),generatedAt:now.toISOString(),sourceStatus,items});
+ const unique=[...new Map(items.map(i=>[i.url.split('?')[0],i])).values()].slice(0,500);
+ const edition=validateEdition({demo:false,mode:'headlines',editionId:'headlines-'+Date.now(),generatedAt:now.toISOString(),sourceStatus,items:unique});
  writeFileSync('public/data/edition.json.tmp',JSON.stringify(edition,null,2));renameSync('public/data/edition.json.tmp','public/data/edition.json');
- console.log(JSON.stringify({count:items.length,sourceStatus,titles:items.map(i=>({title:i.title,category:i.category,publishedAt:i.publishedAt}))},null,2));
+ console.log(JSON.stringify({count:unique.length,sourceStatus,gold:unique.filter(i=>i.goldRelevance).map(i=>({title:i.title,type:i.goldRelevance}))},null,2));
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href)refresh().catch(error=>{console.error(error.message);process.exitCode=1;});

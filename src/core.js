@@ -1,5 +1,5 @@
 export const categories = {world:'โลก',thailand:'ไทย',local:'ท้องถิ่น',discovery:'เปิดขอบฟ้า'};
-export const topics = ['สิ่งแวดล้อม','เทคโนโลยี','เศรษฐกิจ','สุขภาพ','สังคม','วิทยาศาสตร์','วัฒนธรรม','การศึกษา'];
+export const topics = ['สิ่งแวดล้อม','เทคโนโลยี','เศรษฐกิจ','สุขภาพ','สังคม','วิทยาศาสตร์','วัฒนธรรม','การศึกษา','ความปลอดภัยไซเบอร์','ทองคำ'];
 export const policy = {version:'0.1.0',quotaPerCategory:3,weights:{impact:.30,urgency:.20,publicValue:.20,geography:.15,freshness:.15}};
 export function validatePolicy(value) {
   const keys=['impact','urgency','publicValue','geography','freshness'];
@@ -39,6 +39,7 @@ function selectDailyEdition(items,prefs){
  const eligible=items.filter(i=>isPublishable(i)&&(i.category!=='local'||i.region===prefs.region)&&(i.category!=='discovery'||!(prefs.topics||[]).includes(i.topic))).sort((a,b)=>score(b)-score(a)||a.id.localeCompare(b.id));
  const selected=[];const counts=Object.fromEntries(keys.map(k=>[k,0]));const filled={...counts};const sources={};const seen=new Set();
  const add=item=>{const identity=item.url?safeUrl(item.url)?.split('?')[0]:item.id;if(seen.has(identity)||(sources[item.sourceId]||0)>=Math.ceil(dailyLimit/2))return false;seen.add(identity);selected.push(item);counts[item.category]++;sources[item.sourceId]=(sources[item.sourceId]||0)+1;return true;};
+ if(prefs.goldFocus!==false){const focus=[...eligible.filter(i=>i.goldRelevance==='direct').slice(0,3),...eligible.filter(i=>i.goldRelevance==='macro').slice(0,2)];for(const item of focus)add(item);}
  for(const key of keys)for(const item of eligible){if(counts[key]>=targets[key])break;if(item.category===key)add(item);}
  if(prefs.fillGaps!==false)for(const item of eligible){if(selected.length>=dailyLimit)break;if(add(item))filled[item.category]++;}
  return {items:selected,counts,quota:Math.floor(dailyLimit/4),targets,dailyLimit,filled,fillGaps:prefs.fillGaps!==false,policyVersion:policy.version};
