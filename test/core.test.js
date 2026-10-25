@@ -1,6 +1,6 @@
 import {test} from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
 import {selectEdition,score,safeUrl,validateEdition} from '../src/core.js';
-const data=JSON.parse(readFileSync(new URL('../public/data/edition.json',import.meta.url)));
+const data=JSON.parse(readFileSync(new URL('./fixtures/demo.json',import.meta.url)));
 test('same inputs give same edition and clicks do not affect ranking',()=>{const prefs={region:'เชียงใหม่',topics:[],quota:3};const a=selectEdition(data.items,prefs);assert.deepEqual(a,selectEdition(data.items,prefs));const b=selectEdition(data.items.map((i,n)=>({...i,clicks:1000-n})),prefs);assert.deepEqual(a.items.map(i=>i.id),b.items.map(i=>i.id));assert.equal(a.items.length,12);});
 test('no silent replacement of missing local coverage',()=>{const e=selectEdition(data.items,{region:'none',quota:3});assert.equal(e.counts.local,0);assert.equal(e.items.length,9);});
 test('local selection and explicit interests respected',()=>{const e=selectEdition(data.items,{region:'ขอนแก่น',topics:['วิทยาศาสตร์'],quota:3});assert(e.items.filter(i=>i.category==='local').every(i=>i.region==='ขอนแก่น'));assert(!e.items.some(i=>i.category==='discovery'&&i.topic==='วิทยาศาสตร์'));});
