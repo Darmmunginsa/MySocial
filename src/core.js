@@ -21,7 +21,7 @@ export function selectEdition(items,prefs={}) {
     let count=0;
     for(const item of sorted) {
       if(count>=quota)break;
-      if(item.category!==category || item.status!=='approved')continue;
+      if(item.category!==category || !isPublishable(item))continue;
       if(category==='local' && item.region!==prefs.region)continue;
       if(category==='discovery' && (prefs.topics||[]).includes(item.topic))continue;
       if(selected.some(x=>x.id===item.id))continue;
@@ -36,6 +36,7 @@ export function selectEdition(items,prefs={}) {
 export function safeUrl(value) {
   try {const url=new URL(value);return url.protocol==='https:'&&!url.username&&!url.password?url.href:null;}catch{return null;}
 }
+export function isPublishable(item){return item.status==='approved'||(item.kind==='headline'&&item.status==='metadata'&&!!safeUrl(item.url)&&!!item.sourceName);}
 export function validateEdition(data) {
   if(!data || !Array.isArray(data.items) || typeof data.demo!=='boolean' || !Number.isFinite(Date.parse(data.generatedAt)))throw new Error('Invalid edition');
   if(data.items.length>500)throw new Error('Too many items');
@@ -44,6 +45,10 @@ export function validateEdition(data) {
     if(!item.id||ids.has(item.id)||!categories[item.category]||!topics.includes(item.topic)||typeof item.title!=='string'||typeof item.summary!=='string'||!item.scores||!Number.isFinite(Date.parse(item.publishedAt)))throw new Error('Invalid story');
     ids.add(item.id);
     for(const key of Object.keys(policy.weights)) if(typeof item.scores[key]!=='number'||item.scores[key]<0||item.scores[key]>1)throw new Error('Invalid score');
+    if(!data.demo&&item.kind==='headline'){
+      if(data.mode!=='headlines'||item.status!=='metadata'||!item.sourceName||!safeUrl(item.url)||!safeUrl(item.feedUrl)||item.sentences?.length!==0||item.evidence?.length!==0)throw new Error('Invalid headline metadata');
+      continue;
+    }
     if(!data.demo && (item.status!=='approved'||!item.sourceName||!safeUrl(item.url)||!Array.isArray(item.sentences)||!item.sentences.length||!Array.isArray(item.evidence)))throw new Error('Unreviewed story');
     if(!data.demo)for(const sentence of item.sentences){
       if(!sentence.text||!Array.isArray(sentence.evidenceIds)||!sentence.evidenceIds.length||sentence.evidenceIds.some(id=>!item.evidence.some(e=>e.id===id&&e.text)))throw new Error('Missing evidence');

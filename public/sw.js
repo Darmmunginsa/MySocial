@@ -1,4 +1,4 @@
-const CACHE='oh-prototype-v2';
+const CACHE='oh-prototype-v3';
 const BASE=new URL('./',self.location.href);
 const ASSETS=['./','./index.html','./src/app.js','./src/core.js','./src/style.css','./data/edition.json','./data/ranking-policy.json','./icon.svg','./manifest.webmanifest'].map(p=>new URL(p,BASE).href);
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS))));
