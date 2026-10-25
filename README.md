@@ -18,19 +18,20 @@ node scripts/serve.mjs
 
 - ใช้งานแล้ว: หน้าเว็บ responsive, deterministic ranking, local preferences/bookmarks, explanation, mock edition, offline cache พื้นฐาน
 - เตรียมไว้: OpenAI Responses CLI พร้อม schema และ quote validation; human-review publication gate
-- ยังไม่เชื่อม: Google Sheet ของผู้ใช้, RSS ingestion, extraction, clustering, authentication, production editorial workflow
+- เชื่อมแบบ snapshot แล้ว: กติกาจาก Google Sheet ที่อ่านกลับและตรวจ schema พร้อมเวลานำเข้า ยังไม่ซิงก์อัตโนมัติ
+- ยังไม่เชื่อม: RSS ingestion, extraction, clustering, authentication, production editorial workflow
 - ยังไม่รับรอง: คุณภาพสรุปข่าวจริง, semantic grounding อัตโนมัติ, installability ทุกอุปกรณ์, offline เต็มรูปแบบทุก browser
-- น้ำหนัก ranking กำหนดใน `src/core.js`; CSV Policy เป็นแบบตารางสำหรับเชื่อมในขั้นถัดไป ยังไม่ซิงก์โดยอัตโนมัติ
+- เว็บโหลดกติกาที่ตรวจแล้วจาก `public/data/ranking-policy.json`; เมื่อแก้ชีตต้องนำเข้าและ deploy ใหม่
 
 ## Google Sheet
 
 ชีตเป้าหมาย: https://docs.google.com/spreadsheets/d/1EPCjlVVQORWxzeOFOlqyWXw5nmgd7vm69D_NRkxneck/edit
 
-ยังไม่ได้อ่านหรือแก้ชีต เพราะ connector ไม่พร้อมใช้งาน และ browser ต้องลงชื่อเข้าใช้ ไม่จำเป็นต้องเปิดชีตเป็นสาธารณะ
+อ่านและตั้งหัวตารางทั้งสามแท็บแล้วผ่าน browser ที่ผู้ใช้ลงชื่อเข้าใช้ ชีตยัง private ไม่จำเป็นต้องเปิดเป็นสาธารณะ
 
-เตรียม `config/Sources.csv`, `Policy.csv`, `Review.csv` ให้ import เป็น **แท็บใหม่** หลังตรวจว่าไม่ทับข้อมูลเดิม ห้ามเก็บ API key ในชีต
+`config/*.csv` เป็นแม่แบบเดิม ส่วน `config/sources.json` และ `public/data/ranking-policy.json` มาจาก snapshot ที่ตรวจแล้ว ห้ามเก็บ API key ในชีต
 
-ขั้นถัดไป: ยืนยันชื่อแท็บ/คอลัมน์จริงและเลือกช่องทางอ่านแบบมีสิทธิ (Google service account หรือ Apps Script ที่ตรวจสิทธิแล้ว) ก่อนเชื่อม live ไม่ถือว่า connector ของแชตใช้แทน credentials ของแอปได้
+รายละเอียดการนำเข้าและ review gate อยู่ใน [docs/SHEETS.md](docs/SHEETS.md) การเชื่อม live ยังต้องมีช่องทางอ่านแบบมีสิทธิ ไม่ถือว่า session เบราว์เซอร์ของแชตใช้แทน credentials ของแอปได้
 
 ## OpenAI — ใช้เฉพาะฝั่ง CLI/server
 

@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0",
+  "weights": {
+    "impact": 0.3,
+    "urgency": 0.2,
+    "publicValue": 0.2,
+    "geography": 0.15,
+    "freshness": 0.15
+  },
+  "quotaPerCategory": 3,
+  "origin": {
+    "type": "google-sheet-snapshot",
+    "capturedAt": "2026-10-25T05:36:17.952Z"
+  }
+}

@@ -1,11 +1,20 @@
 export const categories = {world:'โลก',thailand:'ไทย',local:'ท้องถิ่น',discovery:'เปิดขอบฟ้า'};
 export const topics = ['สิ่งแวดล้อม','เทคโนโลยี','เศรษฐกิจ','สุขภาพ','สังคม','วิทยาศาสตร์','วัฒนธรรม','การศึกษา'];
-export const policy = {version:'0.1.0',weights:{impact:.30,urgency:.20,publicValue:.20,geography:.15,freshness:.15}};
+export const policy = {version:'0.1.0',quotaPerCategory:3,weights:{impact:.30,urgency:.20,publicValue:.20,geography:.15,freshness:.15}};
+export function validatePolicy(value) {
+  const keys=['impact','urgency','publicValue','geography','freshness'];
+  if(!value||typeof value.version!=='string'||!/^\d+\.\d+\.\d+$/.test(value.version)||![1,2,3].includes(value.quotaPerCategory)||!value.weights||Object.keys(value.weights).length!==5)throw new Error('Invalid policy');
+  for(const key of keys)if(typeof value.weights[key]!=='number'||!Number.isFinite(value.weights[key])||value.weights[key]<0||value.weights[key]>1)throw new Error('Invalid policy weight');
+  if(Math.abs(keys.reduce((sum,key)=>sum+value.weights[key],0)-1)>0.000001)throw new Error('Policy weights must sum to 1');
+  if(value.origin&&(!Number.isFinite(Date.parse(value.origin.capturedAt))||value.origin.type!=='google-sheet-snapshot'))throw new Error('Invalid policy provenance');
+  return value;
+}
+export function configurePolicy(value){validatePolicy(value);policy.version=value.version;policy.weights={...value.weights};policy.quotaPerCategory=value.quotaPerCategory;policy.origin=value.origin||null;}
 export function score(item) {
   return Object.entries(policy.weights).reduce((sum,[key,w])=>sum+w*Math.min(1,Math.max(0,Number(item.scores[key])||0)),0);
 }
 export function selectEdition(items,prefs={}) {
-  const quota = [1,2,3].includes(Number(prefs.quota)) ? Number(prefs.quota) : 3;
+  const quota = [1,2,3].includes(Number(prefs.quota)) ? Number(prefs.quota) : policy.quotaPerCategory;
   const selected=[]; const counts={}; const sourceCounts={};
   const sorted=[...items].sort((a,b)=>score(b)-score(a)||a.id.localeCompare(b.id));
   for(const category of Object.keys(categories)) {

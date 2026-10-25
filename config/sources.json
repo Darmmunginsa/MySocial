@@ -1,0 +1,35 @@
+[
+  {
+    "source_id": "source-001",
+    "name": "NASA News Releases",
+    "feed_url": "",
+    "category": "world",
+    "region": "",
+    "language": "en",
+    "rights_status": "pending",
+    "enabled": false,
+    "notes": "ผู้สมัครแหล่งข่าว: https://www.nasa.gov/rss-feeds/ — ยังไม่ตรวจสิทธิและ feed endpoint"
+  },
+  {
+    "source_id": "source-002",
+    "name": "กรมประชาสัมพันธ์",
+    "feed_url": "",
+    "category": "thailand",
+    "region": "",
+    "language": "th",
+    "rights_status": "pending",
+    "enabled": false,
+    "notes": "ผู้สมัครแหล่งข่าว: https://directory.prd.go.th/th/rss/page/index/id/1 — ยังไม่ตรวจสิทธิและ feed endpoint"
+  },
+  {
+    "source_id": "source-003",
+    "name": "ท้องถิ่น — รอเลือกจังหวัด",
+    "feed_url": "",
+    "category": "local",
+    "region": "",
+    "language": "th",
+    "rights_status": "pending",
+    "enabled": false,
+    "notes": "เลือกจังหวัดนำร่องและตรวจแหล่งต้นทางก่อนเปิดใช้งาน"
+  }
+]
