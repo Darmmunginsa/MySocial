@@ -2,7 +2,8 @@ import {createHash} from 'node:crypto';
 import {readFileSync,writeFileSync,renameSync} from 'node:fs';
 import {pathToFileURL} from 'node:url';
 import {safeUrl,validateEdition} from '../src/core.js';
-export const feeds=[{id:'bbc-thai',name:'BBC News ไทย',url:'https://feeds.bbci.co.uk/thai/rss.xml',hosts:['www.bbc.com','www.bbc.co.uk','bbc.com'],language:'th'},{id:'thaipbs',name:'Thai PBS',url:'https://www.thaipbs.th/news/today',hosts:['www.thaipbs.th'],language:'th',format:'html'},{id:'nasa',name:'NASA',url:'https://www.nasa.gov/feed/',hosts:['www.nasa.gov','science.nasa.gov','nasa.gov'],language:'en'}];
+const yesterday=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Bangkok',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(Date.now()-86400000));
+export const feeds=[{id:'bbc-thai',publisherId:'bbc',name:'BBC News ไทย',url:'https://feeds.bbci.co.uk/thai/rss.xml',hosts:['www.bbc.com','www.bbc.co.uk','bbc.com'],language:'th'},{id:'thaipbs',name:'Thai PBS',url:'https://www.thaipbs.th/news/today',hosts:['www.thaipbs.th'],language:'th',format:'html'},{id:'nasa',name:'NASA',url:'https://www.nasa.gov/feed/',hosts:['www.nasa.gov','science.nasa.gov','nasa.gov'],language:'en'},{id:'bbc-world',publisherId:'bbc',name:'BBC News World',url:'https://feeds.bbci.co.uk/news/world/rss.xml',hosts:['www.bbc.com','www.bbc.co.uk','bbc.com'],language:'en'},{id:'thaipbs-archive',publisherId:'thaipbs',name:'Thai PBS',url:'https://www.thaipbs.th/news/archive/'+yesterday,hosts:['www.thaipbs.th'],language:'th',format:'html'}];
 export function plain(value){return value.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g,'$1').replace(/<[^>]*>/g,'').replace(/&#(x[0-9a-f]+|[0-9]+);/gi,(_,n)=>{const c=n[0].toLowerCase()==='x'?parseInt(n.slice(1),16):Number(n);return c>0&&c<=0x10ffff?String.fromCodePoint(c):'';}).replace(/&(amp|lt|gt|quot|apos);/g,(_,x)=>({amp:'&',lt:'<',gt:'>',quot:'"',apos:"'"}[x])).trim();}
 export function parseRSS(xml,source,now=new Date()){
  if(typeof xml!=='string'||xml.length>2000000||/<!DOCTYPE|<!ENTITY/i.test(xml)||!/<rss\b/i.test(xml))throw new Error('Unsupported RSS document');
@@ -15,10 +16,10 @@ export function parseRSS(xml,source,now=new Date()){
   const region=['กรุงเทพมหานคร','เชียงใหม่','ขอนแก่น'].find(r=>title.includes(r)||(r==='กรุงเทพมหานคร'&&/กรุงเทพ|กทม\./.test(title)))||null;
   const foreign=/สหรัฐ|อเมริกา|ทรัมป์|จีน|ญี่ปุ่น|เกาหลี|ยูเครน|รัสเซีย|อิสราเอล|กาซา|อังกฤษ|ยุโรป|เมียนมา|ไต้หวัน|อิหร่าน|ปาเลสไตน์|อาเซียน|ฝรั่งเศส|อินเดีย|ปารีส/.test(title);
   const explicitThai=/คนไทย|ประเทศไทย|รัฐบาลไทย|เศรษฐกิจไทย|สังคมไทย/.test(title);
-  const category=source.id==='nasa'?'discovery':region?'local':source.id==='thaipbs'&&!foreign?'thailand':explicitThai?'thailand':'world';
+  const category=source.id==='nasa'?'discovery':region?'local':(source.id==='thaipbs'||source.publisherId==='thaipbs')&&!foreign?'thailand':explicitThai?'thailand':'world';
   const topic=source.id==='nasa'?'วิทยาศาสตร์':/ฝุ่น|น้ำท่วม|อากาศ|โลกร้อน/.test(title)?'สิ่งแวดล้อม':/เศรษฐกิจ|เงิน|ราคา|ภาษี/.test(title)?'เศรษฐกิจ':/สุขภาพ|โรค|แพทย์/.test(title)?'สุขภาพ':'สังคม';
-  result.push({id:'feed-'+createHash('sha256').update(url).digest('hex').slice(0,20),kind:'headline',status:'metadata',title,summary:`พาดหัวจาก ${source.name} — เปิดอ่านรายละเอียดและบริบทฉบับเต็มที่ต้นทาง`,url,sourceId:source.id,sourceName:source.name,feedUrl:source.url,language:source.language,publishedAt:new Date(time).toISOString(),fetchedAt:now.toISOString(),category,topic,region,reason:`รับพาดหัวจาก ${source.name} · หมวดเบื้องต้นตามแหล่งและคำในพาดหัว${region?'ที่ระบุพื้นที่ตรงกับจังหวัดที่เลือก':''} · เรียงความสดโดยไม่ใช้ยอดคลิก`,scores:{impact:.5,urgency:.5,publicValue:.5,geography:.5,freshness:Math.exp(-Math.max(0,age)/48)},sentences:[],evidence:[]});
-  if(result.length>=8)break;
+  result.push({id:'feed-'+createHash('sha256').update(url).digest('hex').slice(0,20),kind:'headline',status:'metadata',title,summary:`พาดหัวจาก ${source.name} — เปิดอ่านรายละเอียดและบริบทฉบับเต็มที่ต้นทาง`,url,sourceId:source.publisherId||source.id,sourceName:source.name,feedUrl:source.url,language:source.language,publishedAt:new Date(time).toISOString(),fetchedAt:now.toISOString(),category,topic,region,reason:`รับพาดหัวจาก ${source.name} · หมวดเบื้องต้นตามแหล่งและคำในพาดหัว${region?'ที่ระบุพื้นที่ตรงกับจังหวัดที่เลือก':''} · เรียงความสดโดยไม่ใช้ยอดคลิก`,scores:{impact:.5,urgency:.5,publicValue:.5,geography:.5,freshness:Math.exp(-Math.max(0,age)/48)},sentences:[],evidence:[]});
+  if(result.length>=60)break;
  }
  return result;
 }

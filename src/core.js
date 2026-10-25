@@ -14,6 +14,7 @@ export function score(item) {
   return Object.entries(policy.weights).reduce((sum,[key,w])=>sum+w*Math.min(1,Math.max(0,Number(item.scores[key])||0)),0);
 }
 export function selectEdition(items,prefs={}) {
+  if([20,24,30].includes(Number(prefs.dailyLimit)))return selectDailyEdition(items,prefs);
   const quota = [1,2,3].includes(Number(prefs.quota)) ? Number(prefs.quota) : policy.quotaPerCategory;
   const selected=[]; const counts={}; const sourceCounts={};
   const sorted=[...items].sort((a,b)=>score(b)-score(a)||a.id.localeCompare(b.id));
@@ -33,6 +34,15 @@ export function selectEdition(items,prefs={}) {
   }
   return {items:selected,counts,quota,policyVersion:policy.version};
 }
+function selectDailyEdition(items,prefs){
+ const dailyLimit=Number(prefs.dailyLimit);const keys=Object.keys(categories);const targets=Object.fromEntries(keys.map((k,i)=>[k,Math.floor(dailyLimit/4)+(i<dailyLimit%4?1:0)]));
+ const eligible=items.filter(i=>isPublishable(i)&&(i.category!=='local'||i.region===prefs.region)&&(i.category!=='discovery'||!(prefs.topics||[]).includes(i.topic))).sort((a,b)=>score(b)-score(a)||a.id.localeCompare(b.id));
+ const selected=[];const counts=Object.fromEntries(keys.map(k=>[k,0]));const filled={...counts};const sources={};const seen=new Set();
+ const add=item=>{const identity=item.url?safeUrl(item.url)?.split('?')[0]:item.id;if(seen.has(identity)||(sources[item.sourceId]||0)>=Math.ceil(dailyLimit/2))return false;seen.add(identity);selected.push(item);counts[item.category]++;sources[item.sourceId]=(sources[item.sourceId]||0)+1;return true;};
+ for(const key of keys)for(const item of eligible){if(counts[key]>=targets[key])break;if(item.category===key)add(item);}
+ if(prefs.fillGaps!==false)for(const item of eligible){if(selected.length>=dailyLimit)break;if(add(item))filled[item.category]++;}
+ return {items:selected,counts,quota:Math.floor(dailyLimit/4),targets,dailyLimit,filled,fillGaps:prefs.fillGaps!==false,policyVersion:policy.version};
+}
 export function safeUrl(value) {
   try {const url=new URL(value);return url.protocol==='https:'&&!url.username&&!url.password?url.href:null;}catch{return null;}
 }
@@ -41,15 +51,16 @@ export function coverageDetails(items,prefs,edition){
   const candidates=items.filter(i=>i.category===key&&isPublishable(i));
   const filtered=key==='discovery'?candidates.filter(i=>(prefs.topics||[]).includes(i.topic)):[];
   const available=candidates.filter(i=>(key!=='local'||i.region===prefs.region)&&(key!=='discovery'||!(prefs.topics||[]).includes(i.topic)));
-  const count=edition.counts[key];let reason;
+  const count=edition.counts[key];const target=edition.targets?.[key]??edition.quota;let reason;
   if(key==='local'&&(!prefs.region||prefs.region==='none'))reason='ยังไม่ได้เลือกจังหวัด จึงยังไม่เลือกข่าวท้องถิ่น';
   else if(key==='local'&&!available.length)reason=`ไม่พบพาดหัวที่ระบุพื้นที่ ${prefs.region} ในฉบับนี้`;
   else if(key==='discovery'&&filtered.length&&!available.length)reason=`พาดหัวเปิดขอบฟ้า ${filtered.length} รายการในฉบับนี้อยู่ในหัวข้อ ${[...new Set(filtered.map(i=>i.topic))].join(' / ')} ซึ่งคุณเลือกเป็นความสนใจแล้ว จึงไม่เหลือเรื่องนอกความสนใจจากแหล่งที่มีอยู่`;
-  else if(count>=edition.quota)reason='ครบตามจำนวนที่ตั้งไว้';
+  else if(edition.filled?.[key])reason=`รวม ${edition.filled[key]} เรื่องที่เติมจากหมวดนี้ เพราะหมวดอื่นมีข่าวผ่านเงื่อนไขไม่พอ ตามตัวเลือกเติมข่าวที่เปิดไว้`;
+  else if(count>=target)reason='ครบตามสัดส่วนเริ่มต้น';
   else if(!candidates.length)reason='ยังไม่มีพาดหัวในหมวดนี้จากแหล่งที่นำเข้า';
   else if(available.length>count)reason=`มี ${available.length} พาดหัวที่ผ่านเงื่อนไข แต่เลือกได้ ${count} เรื่องภายใต้ข้อจำกัดจำนวนข่าวต่อแหล่ง`;
   else reason=`มีพาดหัวผ่านเงื่อนไข ${available.length} รายการ${filtered.length?` หลังตัด ${filtered.length} รายการที่ตรงกับความสนใจเดิม`:''} จึงยังไม่ครบจำนวนที่ตั้งไว้`;
-  return {key,label,count,target:edition.quota,excludedByInterest:filtered.length,reason};
+  return {key,label,count,target,excludedByInterest:filtered.length,reason};
  });
 }
 export function isPublishable(item){return item.status==='approved'||(item.kind==='headline'&&item.status==='metadata'&&!!safeUrl(item.url)&&!!item.sourceName);}
