@@ -36,6 +36,22 @@ export function selectEdition(items,prefs={}) {
 export function safeUrl(value) {
   try {const url=new URL(value);return url.protocol==='https:'&&!url.username&&!url.password?url.href:null;}catch{return null;}
 }
+export function coverageDetails(items,prefs,edition){
+ return Object.entries(categories).map(([key,label])=>{
+  const candidates=items.filter(i=>i.category===key&&isPublishable(i));
+  const filtered=key==='discovery'?candidates.filter(i=>(prefs.topics||[]).includes(i.topic)):[];
+  const available=candidates.filter(i=>(key!=='local'||i.region===prefs.region)&&(key!=='discovery'||!(prefs.topics||[]).includes(i.topic)));
+  const count=edition.counts[key];let reason;
+  if(key==='local'&&(!prefs.region||prefs.region==='none'))reason='ยังไม่ได้เลือกจังหวัด จึงยังไม่เลือกข่าวท้องถิ่น';
+  else if(key==='local'&&!available.length)reason=`ไม่พบพาดหัวที่ระบุพื้นที่ ${prefs.region} ในฉบับนี้`;
+  else if(key==='discovery'&&filtered.length&&!available.length)reason=`พาดหัวเปิดขอบฟ้า ${filtered.length} รายการในฉบับนี้อยู่ในหัวข้อ ${[...new Set(filtered.map(i=>i.topic))].join(' / ')} ซึ่งคุณเลือกเป็นความสนใจแล้ว จึงไม่เหลือเรื่องนอกความสนใจจากแหล่งที่มีอยู่`;
+  else if(count>=edition.quota)reason='ครบตามจำนวนที่ตั้งไว้';
+  else if(!candidates.length)reason='ยังไม่มีพาดหัวในหมวดนี้จากแหล่งที่นำเข้า';
+  else if(available.length>count)reason=`มี ${available.length} พาดหัวที่ผ่านเงื่อนไข แต่เลือกได้ ${count} เรื่องภายใต้ข้อจำกัดจำนวนข่าวต่อแหล่ง`;
+  else reason=`มีพาดหัวผ่านเงื่อนไข ${available.length} รายการ${filtered.length?` หลังตัด ${filtered.length} รายการที่ตรงกับความสนใจเดิม`:''} จึงยังไม่ครบจำนวนที่ตั้งไว้`;
+  return {key,label,count,target:edition.quota,excludedByInterest:filtered.length,reason};
+ });
+}
 export function isPublishable(item){return item.status==='approved'||(item.kind==='headline'&&item.status==='metadata'&&!!safeUrl(item.url)&&!!item.sourceName);}
 export function validateEdition(data) {
   if(!data || !Array.isArray(data.items) || typeof data.demo!=='boolean' || !Number.isFinite(Date.parse(data.generatedAt)))throw new Error('Invalid edition');

@@ -1,4 +1,4 @@
-import {categories,topics,policy,score,selectEdition,safeUrl,validateEdition,configurePolicy,isPublishable} from './core.js?v=0.3.1';
+import {categories,topics,policy,score,selectEdition,safeUrl,validateEdition,configurePolicy,isPublishable,coverageDetails} from './core.js?v=0.3.2';
 const $=s=>document.querySelector(s);
 const read=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))??fallback;}catch{return fallback;}};
 const key='oh-v1';let prefs=read(key,{region:'none',topics:[],quota:3});
@@ -31,10 +31,14 @@ function render(){
  if(category!=='all')items=items.filter(x=>x.category===category);
  items=[...items].sort($('#sort').value==='latest'?(a,b)=>Date.parse(b.publishedAt)-Date.parse(a.publishedAt):(a,b)=>score(b)-score(a)||a.id.localeCompare(b.id));
  $('#view-title').firstChild.textContent=view==='saved'?'เรื่องที่บันทึกไว้ ':'ฉบับของคุณวันนี้ ';
- $('#story-count').textContent=`${items.length} เรื่อง`;$('#saved-count').textContent=data.items.filter(x=>saved.includes(x.id)).length;
+ $('#story-count').textContent=`แสดง ${items.length} เรื่อง${view==='today'?'ตามการตั้งค่าของคุณ':''}`;$('#saved-count').textContent=data.items.filter(x=>saved.includes(x.id)).length;
  $('#edition-date').textContent=`${data.demo?'ฉบับตัวอย่าง':'อัปเดตฉบับ'} · ${date(data.generatedAt)} น.`;
- const missing=Object.keys(categories).filter(c=>edition.counts[c]<edition.quota).map(c=>`${categories[c]} ${edition.counts[c]}/${edition.quota}`);
- $('#coverage').textContent=missing.length?`พื้นที่ที่เลือก: ${prefs.region==='none'?'ยังไม่เลือกจังหวัด':prefs.region} · หมวดที่ยังไม่เต็ม: ${missing.join(' · ')} — เราไม่เติมข่าวอื่นแทนโดยไม่บอก`:`จัดครบ ${edition.quota} เรื่องต่อหมวด · กติกาเปิดเผย ไม่มีคะแนนจากยอดคลิก`;
+ const coverage=$('#coverage');coverage.replaceChildren();
+ coverage.append(el('strong',`ฉบับของคุณคัดได้ ${edition.items.length} เรื่อง · ตั้งไว้สูงสุด ${edition.quota*4} เรื่อง (หมวดละ ${edition.quota})`),el('p',`รับมา ${data.items.length} พาดหัวในฉบับนี้ ก่อนคัดตามการตั้งค่าและกติกา จำนวนที่แต่ละคนเห็นจึงอาจต่างกัน${category!=='all'?` · ขณะนี้แสดงเฉพาะหมวด ${categories[category]}`:''}`));
+ const list=el('ul',undefined,'coverage-list');
+ for(const detail of coverageDetails(data.items,prefs,edition)){const row=el('li');row.append(el('strong',`${detail.label}: ${detail.count} จาก ${detail.target} เรื่อง`),el('span',detail.reason));list.append(row);}
+ coverage.append(list,el('p','หมวดเปิดขอบฟ้าหมายถึงเรื่องนอกหัวข้อที่คุณเลือกสนใจ เมื่อข่าวไม่พอ เราจะแจ้งเหตุผลและไม่เติมข่าวหมวดอื่นแทนโดยอัตโนมัติ'));
+ const adjust=el('button','ปรับหัวข้อที่สนใจ','text-button');adjust.onclick=()=>$('#settings-open').click();coverage.append(adjust);
  const container=$('#stories');container.replaceChildren();
  if(!items.length)container.append(el('p',view==='saved'?'ยังไม่มีเรื่องที่บันทึกในหมวดนี้ ลองกด “บันทึก” บนการ์ด':'ไม่มีเรื่องที่ผ่านเงื่อนไขในหมวดนี้ ลองเลือกจังหวัดหรือปรับหัวข้อที่สนใจ','empty'));
  items.forEach((item,i)=>{
