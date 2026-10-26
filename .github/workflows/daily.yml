@@ -22,6 +22,11 @@ jobs:
         with:
           node-version: '24'
       - run: node scripts/daily.mjs
+      - name: Translate headlines (fallback to originals)
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node scripts/translate.mjs
       - run: node --test
       - run: node scripts/build.mjs
       - name: Save daily editions
