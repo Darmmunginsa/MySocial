@@ -1,0 +1,4 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';
+import {dayKey,storyKey,mergeStories,filterHistory} from '../src/history.js';
+test('edition day rolls over at Bangkok midnight',()=>{assert.equal(dayKey('2026-10-25T16:59:59Z'),'2026-10-25');assert.equal(dayKey('2026-10-25T17:00:00Z'),'2026-10-26');});
+test('history preserves stories removed from latest edition and filters read/search',()=>{const a={id:'a',title:'PHP vulnerability',topic:'ไซเบอร์',sourceName:'BBC',publishedAt:'2026-10-25T10:00:00Z'},b={...a,id:'b',title:'Gold'};const pool=mergeStories([{items:[a]},{items:[b]}]);assert.equal(pool.length,2);assert.deepEqual(filterHistory(pool,{state:'read',read:{a:'date'}}),[a]);assert.deepEqual(filterHistory(pool,{state:'unread',read:{a:'date'}}),[b]);assert.deepEqual(filterHistory(pool,{query:'php',day:'2026-10-25'}),[a]);assert.equal(storyKey({url:'https://example.com/a?tracking=1'}),storyKey({url:'https://example.com/a'}));});
