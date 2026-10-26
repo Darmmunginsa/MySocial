@@ -208,7 +208,13 @@
         "freshness": 0.9807936778600469
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "เซอร์เบียเต็มไปด้วยความดีใจหลังผู้ปกครองเก่าคนสำคัญ วูชิช ยอมถอยให้กับการเคลื่อนไหวประท้วงที่นำโดยนักศึกษา",
+      "translation": {
+        "sourceTitle": "Elation across Serbia after veteran ruler Vučić concedes to student-led protest movement",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-fe2cbd9325d39f55a5f8",
@@ -236,7 +242,13 @@
         "freshness": 0.9226936793980148
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "อิสราเอลแบ่งพรรคแบ่งพวกอย่างลึกซึ้ง เตรียมพร้อมรับการเลือกตั้งสำคัญ",
+      "translation": {
+        "sourceTitle": "Deeply divided Israel braces for pivotal election",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-4f9596d87794c5b0c382",
@@ -264,7 +276,13 @@
         "freshness": 0.9493478865735612
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ผู้นำฝ่ายค้านเวเนซุเอลา มาเรีย มาชาโด กลับประเทศหลังลี้ภัยหลายเดือน",
+      "translation": {
+        "sourceTitle": "Venezuelan opposition leader María Machado returns after months in exile",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-d3d23ea5050c7b575424",
@@ -292,7 +310,13 @@
         "freshness": 0.9208639916851645
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "เหตุใดการเลือกตั้งของอิสราเอลจึงเป็นหนึ่งในการเลือกตั้งที่สำคัญที่สุดในประวัติศาสตร์",
+      "translation": {
+        "sourceTitle": "Why Israel's election is one of the most important in its history",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-842f3b34c2cc681d6206",
@@ -320,7 +344,13 @@
         "freshness": 0.953091106613891
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "การถกเถียงเกี่ยวกับศูนย์ข้อมูลร้อนระอุก่อนเลือกตั้งกลางเทอมสหรัฐฯ - สิ่งที่คุณควรรู้",
+      "translation": {
+        "sourceTitle": "Data centre debate heats up ahead of US midterms - here's what you need to know",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-4dc21b7a0991ea54e655",
@@ -348,7 +378,13 @@
         "freshness": 0.9671761476698956
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "งบประมาณของฮีลีย์จำเป็นต้องรักษาเศรษฐกิจที่แข็งแกร่งท่ามกลางเมฆครึ้ม",
+      "translation": {
+        "sourceTitle": "Healey's Budget needs to sustain the stronger economy through gathering clouds",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-7ce76d9833babb6d603e",
@@ -376,7 +412,13 @@
         "freshness": 0.9862519879056004
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "งบประมาณคืออะไรและมีอะไรบ้างที่อาจอยู่ในนั้น?",
+      "translation": {
+        "sourceTitle": "What is the Budget and what could be in it?",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-3d81f59bbf664adf2fcc",
@@ -404,7 +446,13 @@
         "freshness": 0.9973060772694603
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ลูลาแห่งบราซิลชนะการเลือกตั้งประธานาธิบดีครั้งประวัติศาสตร์ในรอบตัดสิน",
+      "translation": {
+        "sourceTitle": "Brazil's Lula wins historic presidential election in runoff vote",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-7b2979b13fc7ae082c89",
@@ -432,7 +480,13 @@
         "freshness": 0.9708885239529799
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "SpaceX ปิดดีลหนี้ 40 พันล้านดอลลาร์สำหรับชิป AI อีลอน มัสก์กล่าว",
+      "translation": {
+        "sourceTitle": "SpaceX closes $40 billion debt deal for AI chips, Elon Musk says",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-350488346faedd1ca3cc",
@@ -460,7 +514,13 @@
         "freshness": 0.9593219209934887
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "‘ระเบิดเวลาที่กำลังเดิน’ กองทุนบำนาญทั่วโลกเผชิญวิกฤตการณ์ผู้สูงอายุ",
+      "translation": {
+        "sourceTitle": "‘Ticking time bomb’: The world's pension funds face an ageing crisis",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-f68c718a7657a0898ac1",
@@ -488,7 +548,13 @@
         "freshness": 0.8904940945637971
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "บลองช์ปกป้องคดีฟ้องร้องที่ทรัมป์สั่งเกี่ยวกับการรับรองการเลือกตั้งวุฒิสมาชิกอลาสกา",
+      "translation": {
+        "sourceTitle": "Blanche defends Trump-ordered lawsuit over Alaska Senate election certification",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-ca18b5de242849e432aa",
@@ -516,7 +582,13 @@
         "freshness": 0.8511623279246427
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ยูเครนโต้แย้งข้อกล่าวหาของอีลอน มัสก์ที่ว่ากองทัพของตนละเมิดข้อตกลงสตาร์ลิงค์ระหว่างปฏิบัติการโดรน",
+      "translation": {
+        "sourceTitle": "Ukraine disputes Elon Musk’s claim that its military violated Starlink terms during drone operations",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-9752aa37eda3845ff387",
@@ -544,7 +616,13 @@
         "freshness": 0.9677752211358877
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "เบื้องหลัง ‘Mad Money’ คือผู้เขียนที่เก่งกาจที่ผู้ชมไม่เคยเห็น เราเสียเขาไปเร็วเกินไป",
+      "translation": {
+        "sourceTitle": "Behind ‘Mad Money’ was a brilliant writer viewers never saw. We lost him too soon",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-e9e2e50ebcad05a7303f",
@@ -572,7 +650,13 @@
         "freshness": 0.9044911640651778
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ความเจ็บปวดอาจจะมากขึ้นสำหรับธุรกิจ AI ทำไมฉันยังไม่ยอมแพ้",
+      "translation": {
+        "sourceTitle": "More pain may be coming for the AI trade. Why I’m not giving up on it",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-d64c2752eed9c9eee428",
@@ -600,7 +684,13 @@
         "freshness": 0.44318235956831625
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ทรัมป์ผลักดันการสร้าง AI ครั้งใหญ่ ผู้สนับสนุนของเขาหวั่นใจกับสิ่งที่จะตามมา",
+      "translation": {
+        "sourceTitle": "Trump is pushing a massive AI buildout. His own voters are wary of what comes with it",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-7ab4f493e3da0c1a2af6",
@@ -628,7 +718,13 @@
         "freshness": 0.9874684300230452
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ยูโรราคาปรับตัวสูงขึ้นเหนือ 1.1200 แม้กังวลหนี้สินของฝรั่งเศส",
+      "translation": {
+        "sourceTitle": "Euro edges higher above 1.1200 despite French debt worries",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-02ce1feb7719c7c5e38f",
@@ -656,7 +752,13 @@
         "freshness": 0.9873198637743709
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ปอนด์อังกฤษปรับตัวขึ้นเมื่อต่อสู้กับดอลลาร์ที่อ่อนค่า ขณะที่ความสนใจจดจ่อกับการประชุม FOMC สัปดาห์นี้",
+      "translation": {
+        "sourceTitle": "British Pound edges higher vs weak USD as focus remains glued to this week's FOMC meeting",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-962ba238ec14cb871777",
@@ -684,7 +786,13 @@
         "freshness": 0.9856928137580793
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ดอลลาร์แคนาดาปรับตัวขึ้นแม้น้ำมันราคาลดลง",
+      "translation": {
+        "sourceTitle": "Canadian Dollar gains despite lower oil prices",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-50693f19dab5f5b1869d",
@@ -712,7 +820,13 @@
         "freshness": 0.9837040427242948
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ธนาคารประชาชนจีนตั้งอัตราอ้างอิง USD/CNY ที่ 6.7162 เทียบกับ 6.7180 ก่อนหน้า",
+      "translation": {
+        "sourceTitle": "PBOC sets USD/CNY reference rate at 6.7162 vs. 6.7180 previous",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-57a18ba8bd75945aec10",
@@ -740,7 +854,13 @@
         "freshness": 0.9793303910665342
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ราคาน้ำมัน WTI ดิ่งใกล้ 101.00 ขณะที่ทรัมป์ตัดสินใจไม่โจมตีอิหร่านทันที",
+      "translation": {
+        "sourceTitle": "WTI drops to near 101.00 as Trump rules out immediate Iranian strikes",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:13.034Z"
+      }
     },
     {
       "id": "feed-ae1ecc453bdf4881af97",
@@ -768,7 +888,13 @@
         "freshness": 0.9737244158130745
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ดอลลาร์ออสเตรเลียปรับตัวลดลงแม้ธนาคาร RBA เตือนขึ้นอัตราดอกเบี้ย",
+      "translation": {
+        "sourceTitle": "Australian Dollar declines despite RBA rate hike warnings",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:19.759Z"
+      }
     },
     {
       "id": "feed-368e6420f88e3c6136fa",
@@ -796,7 +922,13 @@
         "freshness": 0.9719397648515632
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "จีนเตือนมาตรการตอบโต้ หลังสหรัฐขยายข้อจำกัดการลงทุนในเทคโนโลยีชีวภาพ",
+      "translation": {
+        "sourceTitle": "China warns of countermeasures over expanded US investment curbs on biotech",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:19.759Z"
+      }
     },
     {
       "id": "feed-40ab5dd11078fdde8f74",
@@ -824,7 +956,13 @@
         "freshness": 0.9615395812912002
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ประธานาธิบดียูเครน เซเลนสกี เผยการประชุมสหรัฐ-ยูเครน-รัสเซียจะมีขึ้นในเดือนพฤศจิกายน",
+      "translation": {
+        "sourceTitle": "Ukraine's President Zelenskyy says US-Ukraine-Russia meeting to take place in November",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:19.759Z"
+      }
     },
     {
       "id": "feed-be1138ce11eb8f9901da",
@@ -852,7 +990,13 @@
         "freshness": 0.9578130650660026
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ประธานาธิบดีสหรัฐ โดนัลด์ ทรัมป์ กล่าวว่าจะไม่โจมตีอิหร่านวันนี้",
+      "translation": {
+        "sourceTitle": "US President Donald Trump says “will not attack Iran today”",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:19.759Z"
+      }
     },
     {
       "id": "feed-02976651d60c657015eb",
@@ -880,7 +1024,13 @@
         "freshness": 0.9550898370797245
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "กลุ่มโฮทีย์ในเยเมนประกาศจะโจมตีสนามบินกษัตริย์คาลิดในซาอุดีอาระเบียต่อไป",
+      "translation": {
+        "sourceTitle": "Yemen's Houthis say they will keep attacking Saudi Arabia's King Khalid airport",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:19.759Z"
+      }
     },
     {
       "id": "feed-abba4649d0d6f85af537",
@@ -908,7 +1058,13 @@
         "freshness": 0.9465939452246277
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ราคาทองคำลดลงต่ำกว่า 4,000 ดอลลาร์ ขณะที่ราคาน้ำมันที่สูงขึ้นหนุนคาดการณ์ขึ้นดอกเบี้ยของ Fed",
+      "translation": {
+        "sourceTitle": "Gold declines below $4,000 as higher oil prices reinforce Fed rate-hike expectations",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-26T02:13:19.759Z"
+      }
     }
   ]
 }
