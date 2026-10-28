@@ -1027,7 +1027,13 @@
         "freshness": 0.8103640061941209
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ตำรวจจับวัยรุ่นหลังเหตุยิงทำให้มีผู้บาดเจ็บ 12 คนรวมเด็กในฟลอริดา",
+      "translation": {
+        "sourceTitle": "Police arrest teenager after shooting that injured 12, including children, in Florida",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:36.610Z"
+      }
     },
     {
       "id": "feed-a8fb3c457a70088aa88a",
@@ -1055,7 +1061,13 @@
         "freshness": 0.6355027433481137
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "นักโทษฆาตกรชาวออสเตรเลียถูกปฏิเสธไม่ให้กินเวจไมต์ในเรือนจำ",
+      "translation": {
+        "sourceTitle": "Australian murderer loses bid to eat Vegemite in prison",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:36.610Z"
+      }
     },
     {
       "id": "feed-24f4e73ce7f92a3648d2",
@@ -1083,7 +1095,13 @@
         "freshness": 0.665026764413292
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "เอริค เบาซา ผู้ให้เสียงบั๊กส์ บันนี่ และแดฟฟี่ ดั๊ก เสียชีวิตในวัย 46 ปี",
+      "translation": {
+        "sourceTitle": "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-6efb9f092528a3d021af",
@@ -1111,7 +1129,13 @@
         "freshness": 0.7961861968419882
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ส่วนหนึ่งของแอนตาร์กติกาถูกตั้งชื่อหลังผู้สื่อข่าววิทยาศาสตร์อดีตของบีบีซี",
+      "translation": {
+        "sourceTitle": "Part of Antarctica named after former BBC science correspondent",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-107af134361b315faeb1",
@@ -1139,7 +1163,13 @@
         "freshness": 0.849155899228977
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "สนามบินใหม่มูลค่า 5 พันล้านดอลลาร์ในซิดนีย์มีปัญหาใหญ่: การเดินทางไปถึงลำบาก",
+      "translation": {
+        "sourceTitle": "Sydney's new $5bn airport has one big problem: Getting there is tough",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-30993307ab52b70e5d0e",
@@ -1167,7 +1197,13 @@
         "freshness": 0.61971170032486
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ชมวิธีที่ประธานาธิบดีลูลาเปลี่ยนเกมชนะฟลาวิโอ โบลโซนาโร",
+      "translation": {
+        "sourceTitle": "Watch: How President Lula turned it around to beat Flávio Bolsonaro",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-7666912ecb31f723f891",
@@ -1195,7 +1231,13 @@
         "freshness": 0.7116016391828283
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ฝูงชนต้อนรับมาเรีย มาโชโดไม่นาเวเนซุเอลาหลังลี้ภัยนานหลายเดือน",
+      "translation": {
+        "sourceTitle": "Crowds welcome Venezuela's María Machado after months in exile",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-cad1758efc85404196f0",
@@ -1223,7 +1265,13 @@
         "freshness": 0.8231444364616338
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "อิสราเอลและสหรัฐกำลังไปเลือกตั้ง - ผลกระทบจะมีทั่วโลก",
+      "translation": {
+        "sourceTitle": "Israel and the US are both going to the polls - the consequences will be global",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-f7850cbe228b93eef62d",
@@ -1251,7 +1299,13 @@
         "freshness": 0.8081301484928515
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ช่อง WhatsApp 'กองทัพลูลา' ช่วยพลิกผลเลือกตั้งบราซิลอย่างไร",
+      "translation": {
+        "sourceTitle": "How 'Lula's Army' WhatsApp channel helped turn Brazil election around",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-9420d289314b633b8ffc",
@@ -1279,7 +1333,13 @@
         "freshness": 0.7439589450296669
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ลูลา คือใคร? จากแรงงานและผู้ต้องขัง สู่ประธานาธิบดีบราซิลอีกครั้ง",
+      "translation": {
+        "sourceTitle": "Who is Lula? From ex-worker and prisoner to Brazil's president again",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-8f8ad708ddef06c79d7c",
@@ -1307,7 +1367,13 @@
         "freshness": 0.7413201706733474
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "5 วิธีที่ทรัมป์เปลี่ยนแปลงการย้ายถิ่นในสหรัฐ",
+      "translation": {
+        "sourceTitle": "Five ways Trump has changed immigration in the US",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-d6871d0535130f899b48",
@@ -1335,7 +1401,13 @@
         "freshness": 0.7409641822505253
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ภาพสวยงามจับภาพพระจันทร์ล่าเหยื่อเดือนตุลาคมทั่วโลก",
+      "translation": {
+        "sourceTitle": "Stunning photos capture October's Hunter's Moon around the world",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-2cf2090c6f331009ca8c",
@@ -1363,7 +1435,13 @@
         "freshness": 0.6657083040154848
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ใครควรได้รางวัลบัลลงดอร์ชาย? นักวิเคราะห์บีบีซี สปอร์ต แสดงความคิดเห็น",
+      "translation": {
+        "sourceTitle": "Who should win the men's Ballon d'Or? BBC Sport pundits have their say",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-c8c0cab2bafd8dbcb18d",
@@ -1391,7 +1469,13 @@
         "freshness": 0.6848754584880999
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "การประชุมการเมืองใหญ่ของจีนอาจเห็นสีจิ้นผิง 'เข้มงวดวินัย' ในพรรค",
+      "translation": {
+        "sourceTitle": "China's big political meeting could see Xi 'tighten discipline' in party",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-56429134eb450d9a7907",
@@ -2707,7 +2791,13 @@
         "freshness": 0.9989533432665488
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "แอปเปิลประกาศเปลี่ยนเครื่อง iPhone Duo ที่มีปัญหาหน้าจอ",
+      "translation": {
+        "sourceTitle": "Apple says it will replace iPhone Duo handsets with screen problems",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-59758e9da3af8b73d4c1",
@@ -2735,7 +2825,13 @@
         "freshness": 0.8844296976259713
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "การเข้าจดทะเบียนหุ้นมหาศาลของ Anthropic - 5 สิ่งที่น่าประหลาดใจที่รู้ล่าสุด",
+      "translation": {
+        "sourceTitle": "Anthropic's blockbuster share listing - 5 surprising things we now know",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-1bb58939e1b56373cc2f",
@@ -2763,7 +2859,13 @@
         "freshness": 0.9624981539586875
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "'ฉันเป็นแม่เลี้ยงเดี่ยวมีรายได้ £41,000 และจำกัดการซื้อของสัปดาห์ละ £40' คุณต้องการอะไรจากงบประมาณ?",
+      "translation": {
+        "sourceTitle": "'I'm a single mum on £41,000 and limit my weekly shop to £40.' What do you want from the Budget?",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-e070fb278b64a849d96c",
@@ -2791,7 +2893,13 @@
         "freshness": 0.9859619822891973
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ฮีลีสัญญาบรรจุภัณฑ์งบประมาณก่อนหน้าด้วยแยมและแตงกวาดองราคาถูกลง",
+      "translation": {
+        "sourceTitle": "Healey vows cheaper marmalade and gherkins in pre-Budget package of 'everyday fixes'",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-48726c8e96bae6628b1b",
@@ -2819,7 +2927,13 @@
         "freshness": 0.7258257164161173
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ฮีลีจะปกป้องผู้เกษียณรายได้น้อยจากภาษีเงินได้ในงบประมาณ",
+      "translation": {
+        "sourceTitle": "Healey to shield low-income pensioners from income tax in the Budget",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-63bc5bbf9bbacadc9cb9",
@@ -2847,7 +2961,13 @@
         "freshness": 0.7310275372351526
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "เจ้าของร้านเสริมสวยร้องขอลด VAT ในงบประมาณเพราะแรงกดดันเรื่องพนักงานเพิ่มขึ้น",
+      "translation": {
+        "sourceTitle": "Salon owners urge Budget VAT cut as staffing pressures grow",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-c9ccb0f0cf7633e09f9b",
@@ -2875,7 +2995,13 @@
         "freshness": 0.5258511875495213
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ธุรกิจรายวัน",
+      "translation": {
+        "sourceTitle": "Business Daily",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:23.212Z"
+      }
     },
     {
       "id": "feed-160808c56ff0aa8976b1",
@@ -2903,7 +3029,13 @@
         "freshness": 0.27566460458221387
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "สารคดี",
+      "translation": {
+        "sourceTitle": "The Documentary",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-6d9d5e5887ab889b2ebf",
@@ -2931,7 +3063,13 @@
         "freshness": 0.9295225219858065
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ข้อมูลรั่วไหลของมหาวิทยาลัยโคเปนเฮเกนเผยข้อมูลคน 525,000 ราย",
+      "translation": {
+        "sourceTitle": "University of Copenhagen data breach exposes data of 525,000 people",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:43.157Z"
+      }
     },
     {
       "id": "feed-cb6e7d403caae273d179",
@@ -2959,7 +3097,13 @@
         "freshness": 0.9065305591674422
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "อดีตนักทดสอบเจาะระบบใช้ ARTEX AI ขโมยข้อมูล 8.2 ล้านรายการ",
+      "translation": {
+        "sourceTitle": "Former pentester used ARTEX AI to steal 8.2 million data records",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-77ef2d30d3450429eb0f",
@@ -2987,7 +3131,13 @@
         "freshness": 0.8997413918786962
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "OpenAI เปิดตัว GPT-6.1 Terra ตัวแทน AI เร็วขึ้น 3 เท่า ราคาลด 50%",
+      "translation": {
+        "sourceTitle": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-e83553d746d52cddc9e1",
@@ -3015,7 +3165,13 @@
         "freshness": 0.874945656721334
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "DreamHost บังคับเปลี่ยนรหัสผ่านในเหตุการณ์ที่ยังดำเนินอยู่",
+      "translation": {
+        "sourceTitle": "DreamHost forces password resets in ongoing \"incident\"",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-f5846d497bb2f7fc46f5",
@@ -3043,7 +3199,13 @@
         "freshness": 0.8223968960350427
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ช่องโหว่ร้ายแรง 'HTTP2Shell' Brotli กระตุ้นการแพตช์ฉุกเฉิน",
+      "translation": {
+        "sourceTitle": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-5d414f2c6746c7ce6da3",
@@ -3071,7 +3233,13 @@
         "freshness": 0.8083686943273
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "Microsoft ออกแพตช์ฉุกเฉิน .NET สำหรับช่องโหว่ Brotli ร้ายแรง",
+      "translation": {
+        "sourceTitle": "Microsoft releases emergency .NET patches for critical Brotli flaw",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-f0b80253de2a6ba9eb84",
@@ -3099,7 +3267,13 @@
         "freshness": 0.7812611422351607
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "เมื่อเอเจนต์ AI เป็นเหตุการณ์ ระเบียนตัวตนคือหลักฐาน",
+      "translation": {
+        "sourceTitle": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-5a51b4b30386a9ec2a48",
@@ -3127,7 +3301,13 @@
         "freshness": 0.7803303326121264
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ชายจีนถูกส่งตัวกลับกรณีบทบาทในแผนโกงคริปโตมูลค่า 36 ล้านดอลลาร์",
+      "translation": {
+        "sourceTitle": "Chinese man extradited for role in $36 million cryptocurrency scam",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-982f2ce768917b596cb1",
@@ -3155,7 +3335,13 @@
         "freshness": 0.7254897637646686
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "Kali Linux 2026.3 ออกแล้ว พร้อมเครื่องมือใหม่ 6 รายการ อัปเดตเดสก์ท็อป",
+      "translation": {
+        "sourceTitle": "Kali Linux 2026.3 released with 6 new tools, desktop updates",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-7c54e769948b6fc771cc",
@@ -3183,7 +3369,13 @@
         "freshness": 0.7088273673071956
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ช่องโหว่ PHP2Shell ถูกใช้โจมตีจริงแล้วในธรรมชาติ",
+      "translation": {
+        "sourceTitle": "PHP2Shell security flaws now sucessfully exploited in the wild",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-60dc007605181d899617",
@@ -3211,7 +3403,13 @@
         "freshness": 0.9390980371572246
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "จากวอลล์สตรีทสู่ซิลิคอนแวลลีย์ IPO ของ Anthropic เตรียมสร้างผลกระทบ 'ไหลลง' ครั้งใหญ่",
+      "translation": {
+        "sourceTitle": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-b636afd106784676c6b0",
@@ -3239,7 +3437,13 @@
         "freshness": 0.9841605975619446
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "Microsoft เสนอซื้อหุ้นคืนให้พนักงาน 60,000 คน ขณะ AI เพิ่มประสิทธิภาพ",
+      "translation": {
+        "sourceTitle": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-36a22dedfea42ddaf43b",
@@ -3267,7 +3471,13 @@
         "freshness": 0.9982252052863172
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "กำไรอุตสาหกรรมจีนเติบโตแข็งแกร่งที่สุดในรอบสามเดือน เพิ่มขึ้น 14.4%",
+      "translation": {
+        "sourceTitle": "China industrial profits post strongest growth in three months, rising 14.4%",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-34194f84859eac3ea328",
@@ -3295,7 +3505,13 @@
         "freshness": 0.9308144224339793
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "กระทรวงยุติธรรมตั้งข้อหาผู้บัญชาการ FBI คนก่อน เจมส์ โคมี ในคดีใหม่",
+      "translation": {
+        "sourceTitle": "DOJ charges ex-FBI Director James Comey in new case",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-693095de3b83f9f5b5ea",
@@ -3323,7 +3539,13 @@
         "freshness": 0.842328330693878
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "เส้นทางของทรัมป์: ประธานาธิบดีสูญเสียพันธมิตรที่ช่วยให้เขาเข้าสู่ทำเนียบขาวอย่างไร",
+      "translation": {
+        "sourceTitle": "The arc of Trump: How the president lost the coalition that put him in the White House",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-0ea2c447c7cee9bf618d",
@@ -3351,7 +3573,13 @@
         "freshness": 0.9681067241112401
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ธนาคารกลางญี่ปุ่นคาดคงอัตราดอกเบี้ยในสัปดาห์นี้ แต่ยังคงมีท่าทีเข้มงวด: สำรวจ CNBC",
+      "translation": {
+        "sourceTitle": "Bank of Japan is expected to hold rates this week — but stay hawkish: CNBC survey",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-2187f0eab9a1ea281db8",
@@ -3379,7 +3607,13 @@
         "freshness": 0.9159646296844147
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "เบสเซนต์รับประทานที่ชีสเค้กแฟกทอรี่ วิจารณ์โอบามาเรื่องมุกทรัมป์",
+      "translation": {
+        "sourceTitle": "Bessent dines at Cheesecake Factory, slams Obama over Trump joke",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-89d21ae4cd71961bc89a",
@@ -3407,7 +3641,13 @@
         "freshness": 0.9095731606430486
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "JetBlue ขาดทุนมากขึ้นจากราคาน้ำมัน ซีอีโอยืนยันกำไรปรับดีขึ้น",
+      "translation": {
+        "sourceTitle": "JetBlue posts bigger loss on fuel costs, but CEO says margins improving",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-e1647ff64b0fbabdbc56",
@@ -3435,7 +3675,13 @@
         "freshness": 0.8643919926895849
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ธนาคารกลางสหรัฐฯ มีแนวโน้มคงอัตราดอกเบี้ยในตุลาคม ความหมายสำหรับผู้บริโภค",
+      "translation": {
+        "sourceTitle": "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-ad5cc986f64f97ad26fa",
@@ -3463,7 +3709,13 @@
         "freshness": 0.8620042124238468
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "Apple ตอบรับรายงานผู้ใช้จอ iPhone Duo แตกบนโทรศัพท์พับจอรุ่นใหม่",
+      "translation": {
+        "sourceTitle": "Apple responds to user reports of broken iPhone Duo screens on new foldable phone",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-4592f96e270c8e8ebc6d",
@@ -3491,7 +3743,13 @@
         "freshness": 0.9259736750797577
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "Jim Cramer เตือนอันตรายที่ถูกมองข้ามอาจคุกคามการฟื้นตัวของตลาด",
+      "translation": {
+        "sourceTitle": "Jim Cramer warns this overlooked danger could threaten the market rally",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:49.419Z"
+      }
     },
     {
       "id": "feed-a965bfb3cab743779372",
@@ -3519,7 +3777,13 @@
         "freshness": 0.9908009234868427
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "จีนและรัสเซียกำหนดเส้นทางการค้าขั้วโลกเหนือใหม่ ยุโรปจะสู้ได้หรือไม่?",
+      "translation": {
+        "sourceTitle": "China and Russia are redrawing Arctic trade. Can Europe fight back?",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-3a6c63920b60207e3958",
@@ -3547,7 +3811,13 @@
         "freshness": 0.8087945098602283
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "นักลงทุนปีนี้ทำผลตอบแทนดีเท่ากันโดยหลีกเลี่ยง AI จะลงทุนอย่างไรถ้าการค้าเทคโนโลยียังกระท่อนกระแท่น",
+      "translation": {
+        "sourceTitle": "Investors are doing just as well this year by shunning AI. How to invest if the tech trade keeps fizzling",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-d81211ab7d0e2cfef097",
@@ -3575,7 +3845,13 @@
         "freshness": 0.9379466094512986
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "การเลือกตั้งอิสราเอลดึงประชาชนหลายหมื่นคนบินกลับประเทศเพื่อมาใช้สิทธิ์ลงคะแนน",
+      "translation": {
+        "sourceTitle": "Israeli election draws tens of thousands of citizens flying back to vote",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-47320e7df5dbcf11fd16",
@@ -3603,7 +3879,13 @@
         "freshness": 0.9456915014416732
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "จดหมายข่าว The China Connection ของ CNBC: ‘หน้าผา’ ใต้เมืองจีน",
+      "translation": {
+        "sourceTitle": "CNBC's The China Connection newsletter: The 'cliff' beneath China's cities",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-553185aa4af9f22bd2ff",
@@ -3631,7 +3913,13 @@
         "freshness": 0.8864537098984959
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ศาลตัดสินกระทรวงยุติธรรมทรัมป์ไล่อัยการคดีเอปสไตน์ Maurene Comey อย่างผิดกฎหมาย",
+      "translation": {
+        "sourceTitle": "Trump DOJ unlawfully fired Epstein prosecutor Maurene Comey, judge rules",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-3c6d693a1a3127d3e096",
@@ -3659,7 +3947,13 @@
         "freshness": 0.8879888898897038
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "นักเทรดตลาดทำนาย IPO ของ Anthropic เกือบแน่นอนในปีนี้หลังบริษัทยื่นเอกสารกับ SEC",
+      "translation": {
+        "sourceTitle": "Prediction market traders say an Anthropic IPO is near-certain this year after company filed with SEC",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-a0b5b8d4cc14c34ba8d9",
@@ -3687,7 +3981,13 @@
         "freshness": 0.8933959122239412
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "Meta, SpaceX, Anthropic กระตุ้นคลื่นเงินทุน AI นี่หมายถึงหุ้นของเราจะเป็นอย่างไร",
+      "translation": {
+        "sourceTitle": "Meta, SpaceX, Anthropic stoke the AI funding frenzy. What it means for our stocks",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-6fc8d534e873bb8aecac",
@@ -3715,7 +4015,13 @@
         "freshness": 0.7532514073230245
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "การดูแลผู้ใหญ่ในครอบครัวอาจมีค่าใช้จ่ายหลายพันดอลลาร์ สำรวจพบการสนับสนุนอาจมีผลต่อนักเลือกตั้งกลางเทอม",
+      "translation": {
+        "sourceTitle": "Caregiving for adult relatives can cost thousands. AARP survey finds support could matter to midterm voters",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-8f5effe1afb43119492e",
@@ -3743,7 +4049,13 @@
         "freshness": 0.860090774337091
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "FTC และ 20 รัฐฟ้อง Dollar General กล่าวหาขายสินค้าคิดราคาสูงเกินแก่ลูกค้า",
+      "translation": {
+        "sourceTitle": "FTC and 20 states sue Dollar General, alleging retailer overcharged shoppers",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-8ee1c6b50953fb81c394",
@@ -3771,7 +4083,13 @@
         "freshness": 0.813215602864616
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "วุฒิสภาอลาสก้า: Peltola ขอให้ยกฟ้องคดีเลือกตั้งของ DOJ อย่างรวดเร็วก่อนการเลือกตั้งกลางเทอม",
+      "translation": {
+        "sourceTitle": "Alaska Senate: Peltola seeks quick dismissal of DOJ election lawsuit before midterm",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-cb7a2ba707d451c34d9c",
@@ -3799,7 +4117,13 @@
         "freshness": 0.8031322672138751
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "Apollo จะซื้อหุ้นเกือบ 10% ในบริษัทบริหารสินทรัพย์ทางเลือก Mubadala Capital ที่ได้รับการสนับสนุนจากอาบูดาบี",
+      "translation": {
+        "sourceTitle": "Apollo to buy nearly 10% stake in Abu Dhabi-backed alternative asset manager Mubadala Capital",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-8ffe22e631ae2c0fa261",
@@ -3827,7 +4151,13 @@
         "freshness": 0.8401959659734533
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ลูลา ชนะการเลือกตั้งรอบสองในบราซิล หลังตลาดทำนายเชียร์โบลโซนารู",
+      "translation": {
+        "sourceTitle": "Lula wins Brazil runoff after prediction markets favored Bolsonaro",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-dbad4a94671852447b9a",
@@ -3855,7 +4185,13 @@
         "freshness": 0.8147323826668652
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "NBA เข้าร่วมตลาดทำนายผ่านพันธมิตร Kalshi และ Polymarket",
+      "translation": {
+        "sourceTitle": "NBA enters prediction markets with Kalshi, Polymarket partnerships",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-f32b4375caa087d4fe7d",
@@ -3883,7 +4219,13 @@
         "freshness": 0.8213790487918885
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "อีลอน มัสก์ กล่าวว่าเมฆนีโอมากกว่า 200 แห่งเผชิญกับ ‘การตายระดับกัปปี้’",
+      "translation": {
+        "sourceTitle": "Elon Musk says more than 200 neoclouds face 'guppy-level death'",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-d49c3dd20e9465cb796b",
@@ -3911,7 +4253,13 @@
         "freshness": 0.7827364404432899
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "Meta ประกาศเสนอขายหุ้นมูลค่า 95 พันล้านดอลลาร์ เพื่อขยายการลงทุนใน AI",
+      "translation": {
+        "sourceTitle": "Meta announces $95 billion stock offering to fund AI expansion",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-49c3d08834e67b772b1d",
@@ -3939,7 +4287,13 @@
         "freshness": 0.7910561519055299
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ทรัมป์กล่าวว่าจะตัดสินใจเร็วๆ นี้ว่าจะ ‘ทำข้อตกลง’ กับอิหร่านหรือ ‘กวาดล้างให้สิ้น’",
+      "translation": {
+        "sourceTitle": "Trump says he'll soon decide whether to ‘make a deal’ with Iran or ‘finish it off'",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-093e9cac91d47d2a37d7",
@@ -3967,7 +4321,13 @@
         "freshness": 0.7514749950343991
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "เทรด AI แตกตลาดทำวอลล์สตรีทมองหาการป้องกันความเสี่ยง นักวิเคราะห์อดีต Citadel อาจมีคำตอบ",
+      "translation": {
+        "sourceTitle": "Cracking AI trade has Wall Street looking for a hedge. An ex-Citadel quant may have the answer",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-8b900a299758c4b9f368",
@@ -3995,7 +4355,13 @@
         "freshness": 0.7991081302326353
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "Fanatics ร่วมมือกับ OpenAI พัฒนาแนะนำสินค้าช้อปปิ้งด้วย AI รุ่นใหม่",
+      "translation": {
+        "sourceTitle": "Fanatics teams up with OpenAI for new AI-powered shopping suggestion feature",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-cf1f39142590a323c864",
@@ -4023,7 +4389,13 @@
         "freshness": 0.7430854786428369
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "การออกกำลังกายไม่ได้แค่เสริมหัวใจ แต่ยังปรับการทำงานของหัวใจใหม่",
+      "translation": {
+        "sourceTitle": "Exercise doesn't just strengthen your heart. It rewires it",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-982c212b35a54eb08045",
@@ -4051,7 +4423,13 @@
         "freshness": 0.6171813699406387
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ของเหลวง่ายๆ สามารถหยุดฟันผุโดยไม่ต้องเจาะฟัน งานวิจัยใหญ่ยืนยัน",
+      "translation": {
+        "sourceTitle": "A simple liquid can stop cavities without drilling, major study confirms",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:03:56.899Z"
+      }
     },
     {
       "id": "feed-e06ae4c4b12c72b3c65f",
@@ -4079,7 +4457,13 @@
         "freshness": 0.7354490185454409
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "สุริยุปราคาที่เกิดขึ้นเมื่อ 2,700 ปีที่แล้วเผยสิ่งที่น่าประหลาดใจเกี่ยวกับโลก",
+      "translation": {
+        "sourceTitle": "A 2,700-year-old solar eclipse just revealed something surprising about Earth",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:04:00.637Z"
+      }
     },
     {
       "id": "feed-b949dfeca92cf0511025",
@@ -4107,7 +4491,13 @@
         "freshness": 0.7248518820634204
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "ผ้าคลุมล่องหนความร้อน 3 มิติใหม่ทำให้อุปกรณ์หายไปจากกล้องอินฟราเรด",
+      "translation": {
+        "sourceTitle": "New 3D thermal invisibility cloak makes objects disappear from infrared cameras",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:04:00.637Z"
+      }
     },
     {
       "id": "feed-54ab6a90455a94bd0bcf",
@@ -4135,7 +4525,13 @@
         "freshness": 0.720319011371397
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "กังหันแม่เหล็กจิ๋วช่วยให้คอมพิวเตอร์ทำงานคล้ายสมองมากขึ้น",
+      "translation": {
+        "sourceTitle": "Tiny magnetic vortices could help computers work more like your brain",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:04:00.637Z"
+      }
     },
     {
       "id": "feed-b2eb6c405d5ab9a1feb9",
@@ -4163,7 +4559,13 @@
         "freshness": 0.7165729560198117
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "นักโบราณคดีอาจค้นพบซากเรืออับปางที่เก่าแก่ที่สุดในโลก",
+      "translation": {
+        "sourceTitle": "Archaeologists may have just found the world's oldest shipwreck",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:04:00.637Z"
+      }
     },
     {
       "id": "feed-ff3dceeddd0a9529f369",
@@ -4191,7 +4593,13 @@
         "freshness": 0.731387216782563
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "นักวิทยาศาสตร์จีนค้นพบ “D-rex” ราโบราณขนาดใหญ่ที่มีรากฐานย้อนหลังไปถึง 65 ล้านปี",
+      "translation": {
+        "sourceTitle": "Chinese scientists discover “D-rex,” a giant fungus with roots stretching back 65 million years",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:04:00.637Z"
+      }
     },
     {
       "id": "feed-0646c013cedc7d4ede3f",
@@ -4219,7 +4627,13 @@
         "freshness": 0.7101576653856094
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "AI ตรวจจับสัญญาณมะเร็งตับอ่อนที่มองไม่เห็นล่วงหน้านานหลายปีก่อนวินิจฉัย",
+      "translation": {
+        "sourceTitle": "AI detects “invisible” signs of pancreatic cancer years before diagnosis",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:04:00.637Z"
+      }
     },
     {
       "id": "feed-a9baacb01853f7e8bfdb",
@@ -4247,7 +4661,13 @@
         "freshness": 0.6047888388528357
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "นักวิทยาศาสตร์เอาชนะอุปสรรคที่ซ่อนเร้นเพื่อคอมพิวเตอร์ควอนตัมที่ทรงพลังยิ่งขึ้น",
+      "translation": {
+        "sourceTitle": "Scientists overcome a hidden obstacle to more powerful quantum computers",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:04:00.637Z"
+      }
     },
     {
       "id": "feed-8cd0e10a3c16b4c58b25",
@@ -4275,7 +4695,13 @@
         "freshness": 0.7015916871988772
       },
       "sentences": [],
-      "evidence": []
+      "evidence": [],
+      "titleTh": "นักวิทยาศาสตร์ค้นพบว่าการสูญเสียแผ่นน้ำแข็งทะเลอาร์กติกอาจรุนแรงกว่าที่คาดการณ์",
+      "translation": {
+        "sourceTitle": "Scientists discover Arctic sea ice loss could be far worse than predicted",
+        "model": "gpt-4.1-mini",
+        "translatedAt": "2026-10-28T02:04:00.637Z"
+      }
     }
   ]
 }
