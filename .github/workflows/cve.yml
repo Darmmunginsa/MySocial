@@ -26,18 +26,29 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+      - name: Load saved email watchlist
+        id: watchlist
+        continue-on-error: true
+        env:
+          CVE_WATCH_SITE_URL: ${{ vars.CVE_WATCH_SITE_URL }}
+          CVE_WATCH_SITE_TOKEN: ${{ secrets.CVE_WATCH_SITE_TOKEN }}
+          CVE_WATCH_READ_KEY: ${{ secrets.CVE_WATCH_READ_KEY }}
+          CVE_WATCH_IDS: ${{ vars.CVE_WATCH_IDS }}
+        run: node scripts/load-email-watchlist.mjs
       - name: Refresh official vulnerability metadata
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          CVE_WATCH_IDS: ${{ vars.CVE_WATCH_IDS }}
+          CVE_WATCH_IDS: ${{ steps.watchlist.outputs.ids }}
         run: node scripts/cve-refresh.mjs
       - run: node --test
       - run: node scripts/build.mjs
       - name: Notify only material CVE changes (opt in)
+        if: steps.watchlist.outcome == 'success'
         continue-on-error: true
         env:
           CVE_EMAIL_ENABLED: ${{ vars.CVE_EMAIL_ENABLED || secrets.CVE_EMAIL_ENABLED }}
-          CVE_WATCH_IDS: ${{ vars.CVE_WATCH_IDS }}
+          CVE_WATCH_IDS: ${{ steps.watchlist.outputs.ids }}
+          CVE_WATCH_SCOPE: ${{ steps.watchlist.outputs.scope }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           CVE_ALERT_FROM: ${{ secrets.CVE_ALERT_FROM }}
           CVE_ALERT_TO: ${{ secrets.CVE_ALERT_TO }}

@@ -8,7 +8,16 @@
     "build": "node scripts/build.mjs",
     "test": "node --test",
     "draft": "node --env-file-if-exists=.env scripts/draft.mjs",
-    "refresh": "node scripts/headlines.mjs"
+    "refresh": "node scripts/headlines.mjs",
+    "db:generate": "drizzle-kit generate"
   },
-  "engines": { "node": ">=22" }
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "drizzle-kit": "0.31.11",
+    "drizzle-orm": "0.45.4",
+    "libsodium-wrappers": "0.8.4"
+  },
+  "packageManager": "pnpm@11.25.0"
 }

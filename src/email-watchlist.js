@@ -1,0 +1,14 @@
+let saved=null,loading=false,getIds,onServerLoad;
+const $=s=>document.querySelector(s);const same=(a,b)=>JSON.stringify([...a].sort())===JSON.stringify([...b].sort());
+function show(){if(!saved||!getIds)return;const ids=getIds();$('#email-watch-saved').textContent='รายการรับอีเมลที่บันทึกบนบัญชี: '+saved.ids.length+' CVE'+(saved.ids.length?' · '+saved.ids.join(', '):' · หยุดแจ้งเตือนทั้งหมด');const dirty=!same(ids,saved.ids)||saved.revision===0;$('#email-watch-save').disabled=loading||!dirty;$('#email-watch-save').textContent=dirty?'ใช้รายการนี้รับอีเมล ('+ids.length+' CVE)':'รายการรับอีเมลตรงกับที่ติดตามแล้ว';$('#email-watch-note').textContent=dirty?'มีการเปลี่ยนรายการติดตาม กดบันทึกเพื่อใช้กับอีเมลรอบถัดไป'+(!ids.length?' — รายการว่างจะหยุดรับอีเมลทั้งหมด':''):'บันทึกฝั่งเซิร์ฟเวอร์แล้ว ใช้กับรอบตรวจทุก 6 ชั่วโมง ไม่ส่งซ้ำเพราะกดบันทึก';}
+async function load(){const r=await fetch('/api/email-watchlist',{cache:'no-store',credentials:'same-origin'});if(!r.ok)throw Error(r.status===401?'owner':'unavailable');const data=await r.json();if(!Array.isArray(data.ids)||!Number.isInteger(data.revision))throw Error('unavailable');saved=data;onServerLoad?.(data.ids);}
+export function updateEmailWatchlist(getter,onLoad){getIds=getter;onServerLoad=onLoad;
+ if(!(location.hostname.endsWith('.chatgpt.site')||location.hostname==='127.0.0.1'||location.hostname==='localhost')){$('#email-watch-note').textContent='บันทึกรายการรับอีเมลได้บนเว็บส่วนตัวของพี่';$('#email-watch-open').hidden=false;return;}
+ if(saved){show();return;}if(loading)return;loading=true;
+ load().then(()=>{loading=false;show();}).catch(e=>{loading=false;$('#email-watch-note').textContent=e.message==='owner'?'ต้องลงชื่อเข้าใช้บัญชีเจ้าของเว็บก่อนบันทึกรายการ':'ยังโหลดรายการรับอีเมลไม่ได้ กรุณาลองใหม่';$('#email-watch-reload').hidden=false;});
+}
+$('#email-watch-save').onclick=async()=>{if(!saved||loading)return;const ids=getIds();loading=true;show();$('#email-watch-note').textContent='กำลังบันทึกรายการรับอีเมล…';
+ try{const r=await fetch('/api/email-watchlist',{method:'PUT',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({ids,revision:saved.revision})});if(r.status===409){await load();throw Error('conflict');}if(!r.ok)throw Error('save');const written=await r.json();await load();if(!same(saved.ids,ids)||saved.revision!==written.revision)throw Error('verify');loading=false;show();$('#email-watch-note').textContent='บันทึกและตรวจยืนยันแล้ว '+ids.length+' CVE · ใช้กับอีเมลรอบตรวจถัดไป';}
+ catch(e){loading=false;show();$('#email-watch-note').textContent=e.message==='conflict'?'รายการถูกแก้จากหน้าต่างอื่น โหลดค่าล่าสุดแล้ว โปรดตรวจรายการก่อนบันทึกอีกครั้ง':'บันทึกไม่สำเร็จ รายการอีเมลเดิมยังใช้อยู่ กรุณาลองใหม่';}
+};
+$('#email-watch-reload').onclick=()=>{saved=null;$('#email-watch-reload').hidden=true;updateEmailWatchlist(getIds,onServerLoad);};

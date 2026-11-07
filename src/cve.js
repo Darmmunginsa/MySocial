@@ -1,12 +1,14 @@
-import {prioritizeTracked,followedIds} from './cve-watchlist.js?v=0.10.0';
-import {dataFetch} from './data-source.js?v=0.10.0';
-import {patchLabels,personalStates,https,isCve} from './cve-core.js?v=0.10.0';
+import {updateEmailWatchlist} from './email-watchlist.js?v=0.11.0';
+import {prioritizeTracked,followedIds} from './cve-watchlist.js?v=0.11.0';
+import {dataFetch} from './data-source.js?v=0.11.0';
+import {patchLabels,personalStates,https,isCve} from './cve-core.js?v=0.11.0';
 const root=document.querySelector('#cve-panel');const el=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;};
 let snapshot,local={},loaded=false,page=1;
 try{local=JSON.parse(localStorage.getItem('oh-cve-watch'))||{};if(typeof local!=='object'||Array.isArray(local))local={};}catch{}
 function save(){try{localStorage.setItem('oh-cve-watch',JSON.stringify(local));}catch{document.querySelector('#cve-status').textContent='บันทึกในเครื่องไม่ได้ การเปลี่ยนสถานะอาจหายเมื่อปิดหน้า';}}
 function time(value){return value&&Number.isFinite(Date.parse(value))?new Date(value).toLocaleString('th-TH',{timeZone:'Asia/Bangkok'}):'ไม่ทราบ';}
 function renderWatchlist(){
+ updateEmailWatchlist(()=>followedIds(local),ids=>{let changed=false;for(const id of ids)if(!Object.hasOwn(local,id)){local[id]={tracked:true,state:'watching'};changed=true;}if(changed){save();render();}});
  const sidebar=document.querySelector('#cve-followed-list');sidebar.replaceChildren();const ids=followedIds(local);document.querySelector('#cve-followed-count').textContent=String(ids.length);
  if(!ids.length)sidebar.append(el('p','ยังไม่ได้ติดตาม CVE กด “ติดตาม CVE นี้” บนการ์ด แล้วรายการจะมาอยู่ตรงนี้','subtle'));
  for(const id of ids){const item=snapshot?.items.find(i=>i.id===id),state=local[id];const button=el('button',undefined,'cve-followed-link');button.append(el('strong',id),el('span',personalStates[state.state]||personalStates.watching));
