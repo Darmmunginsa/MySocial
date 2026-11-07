@@ -1,7 +1,7 @@
-import {dataFetch} from './data-source.js?v=0.9.1';
-import {openCves} from './cve.js?v=0.9.1';
-import {dayKey,mergeStories,filterHistory} from './history.js?v=0.9.1';
-import {categories,topics,policy,score,selectEdition,safeUrl,validateEdition,configurePolicy,isPublishable,coverageDetails} from './core.js?v=0.9.1';
+import {dataFetch} from './data-source.js?v=0.9.2';
+import {openCves} from './cve.js?v=0.9.2';
+import {dayKey,mergeStories,filterHistory} from './history.js?v=0.9.2';
+import {categories,topics,policy,score,selectEdition,safeUrl,validateEdition,configurePolicy,isPublishable,coverageDetails} from './core.js?v=0.9.2';
 const $=s=>document.querySelector(s);
 const read=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))??fallback;}catch{return fallback;}};
 const key='oh-v1';let prefs=read(key,{region:'none',topics:[],quota:3});

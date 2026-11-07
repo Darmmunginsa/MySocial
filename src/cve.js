@@ -1,5 +1,5 @@
-import {dataFetch} from './data-source.js?v=0.9.1';
-import {patchLabels,personalStates,https,isCve} from './cve-core.js?v=0.9.1';
+import {dataFetch} from './data-source.js?v=0.9.2';
+import {patchLabels,personalStates,https,isCve} from './cve-core.js?v=0.9.2';
 const root=document.querySelector('#cve-panel');const el=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;};
 let snapshot,local={},loaded=false,page=1;
 try{local=JSON.parse(localStorage.getItem('oh-cve-watch'))||{};if(typeof local!=='object'||Array.isArray(local))local={};}catch{}
@@ -14,7 +14,7 @@ function render(){
   const tags=el('div',undefined,'cve-badges');for(const tag of [item.severity.toUpperCase()+' · CVSS '+(item.score??'ไม่ทราบ'),item.knownExploited?'CISA KEV · มีการโจมตีจริง':null,patchLabels[item.patchStatus],item.reviewed?'GitHub reviewed':item.advisoryUrl?'ยังไม่ผ่าน GitHub review':null].filter(Boolean))tags.append(el('span',tag));card.append(tags);
   const track=el('button',state.tracked?'ติดตามแล้ว ✓':'ติดตาม CVE นี้','filter');track.setAttribute('aria-pressed',String(!!state.tracked));track.onclick=()=>{local[item.id]={...local[item.id],tracked:!local[item.id]?.tracked,state:local[item.id]?.state||'watching'};save();render();};card.append(track);
   const label=el('label','สถานะระบบของฉัน ');const select=el('select');select.setAttribute('aria-label','สถานะของ '+item.id);for(const [key,text] of Object.entries(personalStates)){const option=el('option',text);option.value=key;select.append(option);}select.value=state.state||'watching';select.onchange=()=>{local[item.id]={...local[item.id],tracked:true,state:select.value,changedAt:new Date().toISOString()};save();render();};label.append(select);card.append(label);
-  const tagLabel=el('label','แท็กของฉัน ');const input=el('input');input.placeholder='เช่น production, PHP, ทีมเว็บ';input.maxLength=160;input.value=state.tags||'';input.setAttribute('aria-label','แท็กของ '+item.id);input.onchange=()=>{local[item.id]={...local[item.id],tags:input.value,tracked:true};save();};tagLabel.append(input);card.append(tagLabel);
+  const tagLabel=el('label','แท็กของฉัน ');const input=el('input');input.placeholder='เช่น production, PHP, ทีมเว็บ';input.maxLength=160;input.value=state.tags||'';input.setAttribute('aria-label','แท็กของ '+item.id);input.oninput=()=>{local[item.id]={...local[item.id],tags:input.value,tracked:true};track.textContent='ติดตามแล้ว ✓';track.setAttribute('aria-pressed','true');save();};tagLabel.append(input);card.append(tagLabel);
   card.append(el('p','สถานะและแท็กนี้บันทึกเฉพาะเครื่อง ไม่ได้สแกนหรือยืนยันการแพตช์ให้ และไม่สมัครอีเมลอัตโนมัติ','subtle'));
   const details=el('details');details.append(el('summary','รุ่นที่กระทบ · แพตช์ · ประวัติความคืบหน้า'));
   if(!item.packages.length)details.append(el('p','ยังไม่มีข้อมูลแพ็กเกจ/รุ่นแก้ไขที่ยืนยันในแหล่งนี้ ไม่ได้แปลว่ายังไม่มีแพตช์'));
