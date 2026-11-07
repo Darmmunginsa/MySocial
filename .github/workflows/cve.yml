@@ -36,7 +36,7 @@ jobs:
       - name: Notify only material CVE changes (opt in)
         continue-on-error: true
         env:
-          CVE_EMAIL_ENABLED: ${{ vars.CVE_EMAIL_ENABLED }}
+          CVE_EMAIL_ENABLED: ${{ vars.CVE_EMAIL_ENABLED || secrets.CVE_EMAIL_ENABLED }}
           CVE_WATCH_IDS: ${{ vars.CVE_WATCH_IDS }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           CVE_ALERT_FROM: ${{ secrets.CVE_ALERT_FROM }}
