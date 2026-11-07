@@ -1,5 +1,6 @@
-import {dayKey,mergeStories,filterHistory} from './history.js?v=0.8.0';
-import {categories,topics,policy,score,selectEdition,safeUrl,validateEdition,configurePolicy,isPublishable,coverageDetails} from './core.js?v=0.8.0';
+import {openCves} from './cve.js?v=0.9.0';
+import {dayKey,mergeStories,filterHistory} from './history.js?v=0.9.0';
+import {categories,topics,policy,score,selectEdition,safeUrl,validateEdition,configurePolicy,isPublishable,coverageDetails} from './core.js?v=0.9.0';
 const $=s=>document.querySelector(s);
 const read=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))??fallback;}catch{return fallback;}};
 const key='oh-v1';let prefs=read(key,{region:'none',topics:[],quota:3});
@@ -37,6 +38,7 @@ function details(item){
  body.append(el('p',`เวลาที่ต้นทางเผยแพร่: ${date(item.publishedAt)} (เวลาไทย)`,'subtle'));showDialog('#detail');
 }
 function render(){
+ const cveView=view==='cves';$('#cve-panel').hidden=!cveView;for(const selector of ['.edition-head','.filterbar','#history-controls','#coverage','#policy-status','#stories','.end-note'])$(selector).hidden=cveView;document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===view));if(cveView){openCves();return;}
  if(!data)return;edition=selectEdition(data.items,prefs);
  const pool=mergeStories([{items:Object.values(retained)},data,...(archiveData?[archiveData]:[])]);
  let items=view==='archive'?(archiveData?.items||[]):view==='read'?pool.filter(i=>readStates[i.id]):view==='saved'?pool.filter(x=>saved.includes(x.id)&&isPublishable(x)):edition.items;
@@ -93,3 +95,5 @@ try{const [response,policyResponse]=await Promise.all(['edition.json','ranking-p
 if('serviceWorker' in navigator)navigator.serviceWorker.register(new URL('../sw.js',import.meta.url),{scope:new URL('../',import.meta.url).pathname}).catch(()=>{});
 
 setInterval(async()=>{if(document.visibilityState!=='visible'||!navigator.onLine)return;try{const r=await fetch(new URL('../public/data/edition.json',import.meta.url),{cache:'no-cache'});if(!r.ok)return;const next=validateEdition(await r.json());if(next.generatedAt>data.generatedAt){data=next;render();toast('มีฉบับข่าวใหม่แล้ว');}}catch{}},300000);
+
+if(location.hash==='#cve'){view='cves';render();}

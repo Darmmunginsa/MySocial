@@ -1,0 +1,58 @@
+name: Update CVE Watch
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/cve.yml']
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: daily-edition
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.event_name != 'push' || github.event.head_commit.message == 'Initialize CVE tracking'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Refresh official vulnerability metadata
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          CVE_WATCH_IDS: ${{ vars.CVE_WATCH_IDS }}
+        run: node scripts/cve-refresh.mjs
+      - run: node --test
+      - run: node scripts/build.mjs
+      - name: Notify only material CVE changes (opt in)
+        continue-on-error: true
+        env:
+          CVE_EMAIL_ENABLED: ${{ vars.CVE_EMAIL_ENABLED }}
+          CVE_WATCH_IDS: ${{ vars.CVE_WATCH_IDS }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          CVE_ALERT_FROM: ${{ secrets.CVE_ALERT_FROM }}
+          CVE_ALERT_TO: ${{ secrets.CVE_ALERT_TO }}
+        run: node scripts/cve-email.mjs
+      - name: Save snapshot and notification receipts
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data/cves.json
+          if [ -f public/data/cve-alert-state.json ]; then git add public/data/cve-alert-state.json; fi
+          git diff --cached --quiet || git commit -m 'Update CVE snapshot'
+          git push origin HEAD:main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4
+        id: deployment
