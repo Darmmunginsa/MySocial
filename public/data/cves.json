@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T18:50:24.122Z",
+  "generatedAt": "2026-11-16T06:27:11.673Z",
   "sources": [
     {
       "name": "GitHub reviewed critical",
@@ -42,7 +42,7 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-12T12:31:33Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
       "advisoryCheckedAt": "2026-11-13T06:43:24.847Z",
       "knownExploited": true,
       "history": [
@@ -93,7 +93,7 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-10T00:31:32Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
       "advisoryCheckedAt": "2026-11-10T19:43:24.949Z",
       "knownExploited": true,
       "history": [
@@ -147,8 +147,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T22:15:29Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": true,
       "history": [
         {
@@ -205,8 +205,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-03T17:10:28Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": true,
       "history": [
         {
@@ -262,8 +262,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-27T16:51:50Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": true,
       "history": [
         {
@@ -301,8 +301,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T21:31:48Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": true,
       "history": [
         {
@@ -353,7 +353,7 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-10T03:30:24Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
       "advisoryCheckedAt": "2026-11-10T07:16:16.604Z",
       "knownExploited": true,
       "history": [
@@ -397,8 +397,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T21:31:54Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": true,
       "history": [
         {
@@ -449,8 +449,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-10-28T21:31:49Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": true,
       "history": [
         {
@@ -494,7 +494,7 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-10T15:34:05Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
       "advisoryCheckedAt": "2026-11-10T19:43:24.949Z",
       "knownExploited": true,
       "history": [
@@ -538,8 +538,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-10-28T21:31:54Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": true,
       "history": [
         {
@@ -592,7 +592,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-124194"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-111793",
@@ -620,7 +620,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111793"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-20320",
@@ -648,7 +648,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-20320"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-111560",
@@ -676,7 +676,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111560"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-125350",
@@ -704,7 +704,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-125350"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-116779",
@@ -732,7 +732,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-116779"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-19868",
@@ -760,7 +760,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-19868"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2024-27834",
@@ -788,7 +788,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2024-27834"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-119977",
@@ -816,7 +816,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-119977"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-118527",
@@ -844,7 +844,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-118527"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-111357",
@@ -872,7 +872,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-111357"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-97229",
@@ -900,7 +900,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-97229"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-76418",
@@ -928,7 +928,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76418"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-48356",
@@ -956,7 +956,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-48356"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-109618",
@@ -984,7 +984,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-109618"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-109619",
@@ -1012,7 +1012,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-109619"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-114625",
@@ -1040,7 +1040,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-114625"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-110447",
@@ -1068,7 +1068,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-110447"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-106931",
@@ -1096,7 +1096,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-106931"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-96656",
@@ -1124,7 +1124,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-96656"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-96655",
@@ -1152,7 +1152,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-96655"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-96654",
@@ -1180,7 +1180,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-96654"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-96652",
@@ -1208,7 +1208,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-96652"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-110936",
@@ -1236,7 +1236,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-110936"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-102764",
@@ -1264,7 +1264,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-102764"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2025-61624",
@@ -1292,7 +1292,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-61624"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-21589",
@@ -1320,7 +1320,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-21589"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-105134",
@@ -1348,7 +1348,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-105134"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-76519",
@@ -1376,7 +1376,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76519"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-105133",
@@ -1404,7 +1404,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-105133"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-104935",
@@ -1432,7 +1432,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-104935"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-96951",
@@ -1460,7 +1460,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-96951"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2015-5477",
@@ -1488,7 +1488,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2015-5477"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2016-3081",
@@ -1516,7 +1516,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2016-3081"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2023-22894",
@@ -1544,7 +1544,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2023-22894"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2021-3199",
@@ -1572,7 +1572,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2021-3199"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2015-3306",
@@ -1600,7 +1600,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2015-3306"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-88779",
@@ -1628,7 +1628,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-88779"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-102490",
@@ -1656,7 +1656,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-102490"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-102489",
@@ -1684,7 +1684,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-102489"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-104286",
@@ -1712,7 +1712,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-104286"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-76504",
@@ -1740,7 +1740,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76504"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-86950",
@@ -1768,7 +1768,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-86950"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-88772",
@@ -1796,7 +1796,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-88772"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-88771",
@@ -1824,7 +1824,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-88771"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-67279",
@@ -1852,7 +1852,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-67279"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-65660",
@@ -1880,7 +1880,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-65660"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-87902",
@@ -1908,7 +1908,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-87902"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-5430",
@@ -1936,7 +1936,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-5430"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-71362",
@@ -1964,7 +1964,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-71362"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-93952",
@@ -1992,7 +1992,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-93952"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-94127",
@@ -2020,7 +2020,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-94127"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-93616",
@@ -2048,7 +2048,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-93616"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-85102",
@@ -2076,7 +2076,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-85102"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-7273",
@@ -2104,7 +2104,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-7273"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2025-39964",
@@ -2132,7 +2132,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-39964"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-53266",
@@ -2160,7 +2160,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-53266"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2025-39682",
@@ -2188,7 +2188,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-39682"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-58704",
@@ -2216,7 +2216,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-58704"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-76460",
@@ -2244,7 +2244,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76460"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-87886",
@@ -2272,7 +2272,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-87886"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-76461",
@@ -2300,7 +2300,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-76461"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-84869",
@@ -2328,7 +2328,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-84869"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-42016",
@@ -2356,7 +2356,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-42016"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-42018",
@@ -2384,7 +2384,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-42018"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-85706",
@@ -2412,7 +2412,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-85706"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-86060",
@@ -2440,7 +2440,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-86060"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-67277",
@@ -2468,7 +2468,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-67277"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-19490",
@@ -2496,7 +2496,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-19490"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2025-25249",
@@ -2524,7 +2524,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2025-25249"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-87491",
@@ -2552,7 +2552,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-87491"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-20079",
@@ -2580,7 +2580,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-20079"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-75650",
@@ -2608,7 +2608,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-75650"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-81963",
@@ -2636,7 +2636,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-81963"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-86218",
@@ -2664,7 +2664,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-86218"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-85880",
@@ -2692,7 +2692,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-85880"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-85046",
@@ -2720,7 +2720,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-85046"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-59822",
@@ -2748,7 +2748,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-59822"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-48710",
@@ -2776,7 +2776,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-48710"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-49869",
@@ -2804,7 +2804,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-49869"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-82329",
@@ -2832,7 +2832,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-82329"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-9586",
@@ -2860,7 +2860,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-9586"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-83548",
@@ -2888,7 +2888,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-83548"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-83549",
@@ -2916,7 +2916,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-83549"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-82078",
@@ -2944,7 +2944,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-82078"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-81578",
@@ -2972,7 +2972,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-81578"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2023-49105",
@@ -3000,7 +3000,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2023-49105"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-53362",
@@ -3028,7 +3028,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-53362"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-66384",
@@ -3056,7 +3056,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-66384"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2021-23758",
@@ -3084,7 +3084,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2021-23758"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2015-3246",
@@ -3112,7 +3112,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2015-3246"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2015-5287",
@@ -3140,7 +3140,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2015-5287"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2022-0995",
@@ -3168,7 +3168,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2022-0995"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-8452",
@@ -3196,7 +3196,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-8452"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2019-1068",
@@ -3224,7 +3224,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2019-1068"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-60004",
@@ -3252,7 +3252,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-60004"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-21962",
@@ -3280,7 +3280,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-21962"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-73570",
@@ -3308,7 +3308,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-73570"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-72530",
@@ -3336,7 +3336,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-72530"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-72529",
@@ -3364,7 +3364,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-72529"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-64849",
@@ -3392,7 +3392,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-64849"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-33824",
@@ -3420,7 +3420,7 @@
         "ransomware": "Unknown",
         "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?search_api_fulltext=CVE-2026-33824"
       },
-      "checkedAt": "2026-11-15T18:50:24.122Z"
+      "checkedAt": "2026-11-16T06:27:11.673Z"
     },
     {
       "id": "CVE-2026-129444",
@@ -3442,8 +3442,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T09:30:40Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -3475,8 +3475,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T03:30:50Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -3508,8 +3508,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T00:30:31Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -3540,8 +3540,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T00:30:26Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -3568,8 +3568,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T21:31:54Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -4339,8 +4339,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-03T17:36:57Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -4394,8 +4394,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-03T15:51:33Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -4471,8 +4471,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T15:30:47Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -4504,8 +4504,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T15:30:41Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -4537,8 +4537,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T12:31:30Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -4570,8 +4570,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T12:31:30Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -4604,8 +4604,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T15:31:52Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -4636,8 +4636,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T12:31:34Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -4667,8 +4667,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:32:37Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -4695,8 +4695,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:31:45Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -4725,8 +4725,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:39Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -4755,8 +4755,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:38Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -5297,8 +5297,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T19:39:41Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -5353,8 +5353,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T19:39:09Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6323,8 +6323,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-05T23:45:42Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6359,8 +6359,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-05T23:34:59Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6395,8 +6395,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-05T23:19:21Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6431,8 +6431,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-05T23:15:31Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6467,8 +6467,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-05T21:56:34Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6503,8 +6503,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-05T21:53:38Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6540,8 +6540,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-03T21:18:14Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6584,8 +6584,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-03T16:23:47Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6618,8 +6618,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-02T23:03:15Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6652,8 +6652,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-02T23:02:41Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6708,8 +6708,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-28T21:14:15Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6774,8 +6774,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T15:30:47Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6802,8 +6802,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T15:30:47Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6837,8 +6837,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T15:30:40Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6865,8 +6865,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T15:30:40Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6894,8 +6894,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T15:31:47Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6923,8 +6923,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T15:31:45Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6952,8 +6952,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T06:31:30Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -6980,8 +6980,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T21:32:58Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7009,8 +7009,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T21:32:08Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7037,8 +7037,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T21:31:55Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7065,8 +7065,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T21:31:54Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7093,8 +7093,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T21:31:54Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7126,8 +7126,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:32:44Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7156,8 +7156,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:32:36Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7188,8 +7188,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:32:29Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7216,8 +7216,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:32:06Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7247,8 +7247,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:32:00Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7278,8 +7278,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:32:42Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7306,8 +7306,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:32:38Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7334,8 +7334,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:32:38Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7362,8 +7362,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:32:38Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7390,8 +7390,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:32:38Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7418,8 +7418,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:32:38Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7446,8 +7446,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:32:37Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7474,8 +7474,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:32:37Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7502,8 +7502,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:32:37Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7530,8 +7530,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:32:37Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7558,8 +7558,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:31:52Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7587,8 +7587,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:31:51Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7618,8 +7618,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:31:38Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7649,8 +7649,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:31:37Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7677,8 +7677,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:31:34Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7706,8 +7706,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:43Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7735,8 +7735,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:23Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7771,8 +7771,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:18Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7804,8 +7804,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:17Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7866,8 +7866,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-13T01:09:55Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -7984,8 +7984,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-12T23:46:52Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -9515,8 +9515,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T19:41:36Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -9576,8 +9576,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T19:37:33Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -10234,8 +10234,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T20:40:08Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12237,8 +12237,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-04T17:14:43Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12285,8 +12285,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-04T16:26:24Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12326,8 +12326,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-04T03:35:01Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12367,8 +12367,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-04T03:33:51Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12411,8 +12411,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-04T03:29:32Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12452,8 +12452,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-04T03:28:54Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12496,8 +12496,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-04T03:28:26Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12538,8 +12538,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-04T00:00:33Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12580,8 +12580,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-03T21:20:57Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12614,8 +12614,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-03T17:53:43Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12650,8 +12650,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-03T17:51:30Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12689,8 +12689,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-03T17:36:36Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12727,8 +12727,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-03T17:35:59Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12769,8 +12769,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-28T21:06:53Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12808,8 +12808,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-28T15:08:29Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12845,8 +12845,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-27T21:26:34Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12884,8 +12884,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-27T17:29:57Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12924,8 +12924,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-27T17:29:40Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -12962,8 +12962,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-27T17:28:51Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -13000,8 +13000,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-27T17:28:26Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -13044,8 +13044,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-27T17:27:45Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -13084,8 +13084,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-27T17:25:45Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -13121,8 +13121,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-27T17:24:06Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -13159,8 +13159,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-27T17:19:23Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -13196,8 +13196,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-27T17:17:36Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -13235,8 +13235,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-27T16:52:57Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -13709,8 +13709,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:33:14Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -14431,8 +14431,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T22:22:42Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -14469,8 +14469,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T22:12:22Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -14934,8 +14934,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-30T15:35:33Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -14971,8 +14971,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-29T14:42:21Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -14999,8 +14999,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T03:32:06Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -15109,8 +15109,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T22:44:13Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -15137,8 +15137,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:32:37Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -15343,8 +15343,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T19:43:11Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -15561,8 +15561,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-27T17:25:04Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -15627,8 +15627,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:32:36Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -15655,8 +15655,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:31:52Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -15683,8 +15683,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:31:51Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -15711,8 +15711,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T09:31:47Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -15739,8 +15739,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T09:31:41Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -15767,8 +15767,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T06:31:43Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -15795,8 +15795,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T03:32:06Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -16162,8 +16162,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-11T05:12:35Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -16256,8 +16256,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T19:48:09Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -16294,8 +16294,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T19:46:28Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -16332,8 +16332,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T18:50:01Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -16480,8 +16480,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-08T16:39:11Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -16801,8 +16801,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-05T21:18:04Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -16842,8 +16842,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-05T17:48:54Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -17129,8 +17129,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T19:03:14Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -17288,8 +17288,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-28T15:25:32Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -17335,8 +17335,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-27T17:28:05Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -17368,8 +17368,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T15:30:47Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -17401,8 +17401,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T15:30:40Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -17429,8 +17429,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T12:31:29Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -17461,8 +17461,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T00:30:27Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -17494,8 +17494,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T15:31:52Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -17522,8 +17522,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T21:32:58Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -17554,8 +17554,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:32:44Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -17582,8 +17582,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:32:31Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -17642,8 +17642,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:29Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -17672,8 +17672,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:27Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -17701,8 +17701,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:23Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -17954,8 +17954,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-12T17:17:49Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -18566,8 +18566,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T15:57:19Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -18616,8 +18616,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T15:57:14Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -18892,8 +18892,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T21:46:37Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -18997,8 +18997,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T16:39:14Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -19841,8 +19841,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-05T17:56:40Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -19948,8 +19948,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-04T16:41:45Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -19989,8 +19989,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-04T03:32:55Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -20035,8 +20035,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-03T22:00:04Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -20082,8 +20082,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-03T21:54:17Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -20126,8 +20126,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-28T19:21:32Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -20164,8 +20164,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-28T13:12:34Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -20212,8 +20212,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-27T17:27:19Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -20274,8 +20274,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-27T17:26:46Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -20583,8 +20583,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:43Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -20962,8 +20962,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-10-27T17:24:28Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -21099,6 +21099,36 @@
       ]
     },
     {
+      "id": "CVE-2026-129540",
+      "title": "VoAPI 1.0.0 through 1.2.0 contains a sql injection vulnerability that allows authenticated users...",
+      "severity": "high",
+      "score": 8.8,
+      "patchStatus": "unknown",
+      "packages": [],
+      "advisoryUrl": "https://github.com/advisories/GHSA-6ww7-crwx-359p",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-129540",
+        "https://github.com/VoAPI/VoAPI/issues/78",
+        "https://vul.yulun.ac.cn/20261115/voapi",
+        "https://www.vulncheck.com/advisories/voapi-1.0.0-through-1.2.0-sql-injection-via-search-filter-key",
+        "https://github.com/advisories/GHSA-6ww7-crwx-359p"
+      ],
+      "reviewed": false,
+      "updatedAt": "2026-11-16T03:31:15Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
+      "knownExploited": false,
+      "history": [
+        {
+          "id": "b62ad4fc778a730cb20aa8d347229f064755ef6bb9a78fb38742c8543cc71cc4",
+          "cveId": "CVE-2026-129540",
+          "kind": "new",
+          "at": "2026-11-16T06:27:11.673Z",
+          "patchStatus": "unknown"
+        }
+      ]
+    },
+    {
       "id": "CVE-2026-125449",
       "title": "Deserialization of Untrusted Data vulnerability in Mamunur Rashid Testimonial Slider testimonial...",
       "severity": "high",
@@ -21113,8 +21143,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T15:30:47Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -21146,8 +21176,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T03:30:44Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -21180,8 +21210,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T03:30:44Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -21209,8 +21239,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T15:31:52Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -21240,8 +21270,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T15:31:47Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -21277,8 +21307,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T21:32:53Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -21308,8 +21338,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:33:04Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -21339,8 +21369,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:33:04Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -21370,8 +21400,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:33:04Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -23546,8 +23576,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-11T05:10:47Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -23648,8 +23678,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T21:38:55Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -23744,8 +23774,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T19:35:10Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -23911,8 +23941,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T15:57:54Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -23951,8 +23981,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T15:57:22Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -23994,8 +24024,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T15:57:19Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -24593,8 +24623,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T22:37:59Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -24690,8 +24720,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T19:53:46Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -26213,8 +26243,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T12:31:34Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -26241,8 +26271,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T00:31:50Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -26298,8 +26328,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:33Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -26327,8 +26357,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:18Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -26356,8 +26386,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:18Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -26559,8 +26589,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-13T02:42:59Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -26628,8 +26658,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-12T18:15:39Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -27216,8 +27246,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T22:09:15Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -27260,8 +27290,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T21:18:34Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -27297,8 +27327,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T21:13:56Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -27364,8 +27394,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T01:46:29Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -27834,8 +27864,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T21:31:54Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -28705,8 +28735,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T15:30:47Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -28733,8 +28763,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T21:32:07Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -28979,8 +29009,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T21:59:51Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -29854,6 +29884,37 @@
       ]
     },
     {
+      "id": "CVE-2026-123962",
+      "title": "In FreedomBox before 26.15, unprivileged user accounts can read/write files for which they lack...",
+      "severity": "high",
+      "score": 8.4,
+      "patchStatus": "unknown",
+      "packages": [],
+      "advisoryUrl": "https://github.com/advisories/GHSA-6wcf-xp9g-wcfj",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-123962",
+        "https://alioth-lists.debian.net/pipermail/freedombox-discuss/2026-November/010041.html",
+        "https://freedombox.org/about",
+        "https://salsa.debian.org/freedombox-team/freedombox/-/commit/351b6a5c9b432f29ecab2a74d5426977bca29188",
+        "https://lists.debian.org/debian-lts-announce/2026/11/msg00031.html",
+        "https://github.com/advisories/GHSA-6wcf-xp9g-wcfj"
+      ],
+      "reviewed": false,
+      "updatedAt": "2026-11-15T21:30:35Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
+      "knownExploited": false,
+      "history": [
+        {
+          "id": "f92bfc1a32418156590cd8e868e1b28a706092e3960861d644a067f8ec1421da",
+          "cveId": "CVE-2026-123962",
+          "kind": "new",
+          "at": "2026-11-16T06:27:11.673Z",
+          "patchStatus": "unknown"
+        }
+      ]
+    },
+    {
       "id": "CVE-2025-53697",
       "title": "Use of default credentials vulnerability in Johnson Controls iSTAR Ultra, Johnson Controls iSTAR...",
       "severity": "high",
@@ -29868,8 +29929,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T00:31:50Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -29896,8 +29957,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:33:10Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -30361,8 +30422,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-12T23:34:44Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -31351,8 +31412,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T20:01:23Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -31592,8 +31653,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T12:31:30Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -31623,8 +31684,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T18:30:53Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -32130,8 +32191,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T20:56:18Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -32343,8 +32404,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T21:58:01Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -32381,8 +32442,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T18:47:30Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -32420,8 +32481,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T18:15:21Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -32661,6 +32722,34 @@
       ]
     },
     {
+      "id": "CVE-2026-129091",
+      "title": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File...",
+      "severity": "high",
+      "score": 8.1,
+      "patchStatus": "unknown",
+      "packages": [],
+      "advisoryUrl": "https://github.com/advisories/GHSA-m7wp-f42q-68h4",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-129091",
+        "https://patchstack.com/database/wordpress/plugin/grandprix-core/vulnerability/wordpress-grandprix-core-plugin-1-0-local-file-inclusion-vulnerability?_s_id=cve",
+        "https://github.com/advisories/GHSA-m7wp-f42q-68h4"
+      ],
+      "reviewed": false,
+      "updatedAt": "2026-11-15T21:30:41Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
+      "knownExploited": false,
+      "history": [
+        {
+          "id": "adfd77818b33925f0bb5edf8140b9cab3dc1bf5d63628fac025eca3bf6fdfa7f",
+          "cveId": "CVE-2026-129091",
+          "kind": "new",
+          "at": "2026-11-16T06:27:11.673Z",
+          "patchStatus": "unknown"
+        }
+      ]
+    },
+    {
       "id": "CVE-2026-119618",
       "title": "Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache...",
       "severity": "high",
@@ -32682,8 +32771,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T03:30:44Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -32710,8 +32799,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T00:31:50Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -32739,8 +32828,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T00:31:44Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -32768,8 +32857,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T00:31:44Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -32796,8 +32885,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T00:31:44Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -32824,8 +32913,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T00:31:44Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -32852,8 +32941,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T21:32:59Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -32881,8 +32970,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T21:32:07Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -32948,8 +33037,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:33:04Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -32979,8 +33068,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:33:04Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -33042,8 +33131,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:32:45Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -33074,8 +33163,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:32:37Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -33106,8 +33195,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:32:37Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -33138,8 +33227,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:32:36Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -33295,8 +33384,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:32:42Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -33326,8 +33415,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:31:39Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -33357,8 +33446,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:31:39Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -33388,8 +33477,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T15:31:38Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -33418,8 +33507,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:48Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -33448,8 +33537,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:48Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -33480,8 +33569,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:48Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -33511,8 +33600,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:43Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -33540,8 +33629,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:39Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -33570,8 +33659,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:39Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -33599,8 +33688,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:38Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -33628,8 +33717,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:36Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -33657,8 +33746,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:24Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -33686,8 +33775,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T12:31:18Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -34287,8 +34376,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T19:37:06Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -34884,8 +34973,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T21:48:15Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -35011,8 +35100,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T21:15:53Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -36560,8 +36649,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T00:31:44Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -36588,8 +36677,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T00:31:43Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -37753,8 +37842,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-12T20:46:05Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -38910,8 +38999,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-11T00:21:58Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -40909,8 +40998,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T18:30:35Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -40943,8 +41032,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:33:14Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -41181,8 +41270,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-11T00:47:22Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -41291,8 +41380,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-11T00:46:14Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -41401,8 +41490,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-11T00:35:05Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -41511,8 +41600,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-11T00:34:15Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -41621,8 +41710,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-11T00:33:03Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -41855,8 +41944,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T22:42:04Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -41921,8 +42010,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T21:17:04Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -41956,8 +42045,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-09T21:13:25Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -43545,6 +43634,97 @@
       ]
     },
     {
+      "id": "CVE-2026-129493",
+      "title": "Bolo (bolo-solo) 1.7 through 2.6.4 contains an information disclosure vulnerability that allows...",
+      "severity": "high",
+      "score": 7.5,
+      "patchStatus": "unknown",
+      "packages": [],
+      "advisoryUrl": "https://github.com/advisories/GHSA-j548-r5c7-vvjh",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-129493",
+        "https://github.com/bolo-blog/bolo-solo/issues/331",
+        "https://github.com/bolo-blog/bolo-solo/blob/e0ab6b1f57a4ba66b4a42a7b6ceafb87c33290cc/src/main/java/org/b3log/solo/processor/ArticleProcessor.java#L442-L478",
+        "https://vul.yulun.ac.cn/20261115/bolo-solo",
+        "https://www.vulncheck.com/advisories/bolo-bolo-solo-1.7-through-2.6.4-article-password-disclosure-via-articles",
+        "https://github.com/advisories/GHSA-j548-r5c7-vvjh"
+      ],
+      "reviewed": false,
+      "updatedAt": "2026-11-16T03:31:10Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
+      "knownExploited": false,
+      "history": [
+        {
+          "id": "97b2d0afccccdb8caf6f534954756f06b4c78b9527ccda797993583ea1145e6e",
+          "cveId": "CVE-2026-129493",
+          "kind": "new",
+          "at": "2026-11-16T06:27:11.673Z",
+          "patchStatus": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-129494",
+      "title": "CloudPaste 1.1.0 through 1.9.1 contains an information disclosure vulnerability that allows...",
+      "severity": "high",
+      "score": 7.5,
+      "patchStatus": "unknown",
+      "packages": [],
+      "advisoryUrl": "https://github.com/advisories/GHSA-q4wf-rcwf-h4xf",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-129494",
+        "https://github.com/ling-drag0n/CloudPaste/issues/223",
+        "https://github.com/ling-drag0n/CloudPaste/blob/282ea1c7fbbcd4fab40527664bf7479fd5bb922d/backend/src/routes/proxyLinkRoutes.js#L139-L167",
+        "https://github.com/ling-drag0n/CloudPaste/blob/282ea1c7fbbcd4fab40527664bf7479fd5bb922d/backend/src/storage/drivers/webdav/WebDavStorageDriver.js#L800-L819",
+        "https://vul.yulun.ac.cn/20261115/cloudpaste",
+        "https://www.vulncheck.com/advisories/cloudpaste-1.1.0-through-1.9.1-webdav-credential-disclosure-via-api-proxy-link",
+        "https://github.com/advisories/GHSA-q4wf-rcwf-h4xf"
+      ],
+      "reviewed": false,
+      "updatedAt": "2026-11-16T03:31:10Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
+      "knownExploited": false,
+      "history": [
+        {
+          "id": "c2fb603f00ec752dd94bb4e8dd10ee4e57d42822b8a9b8318923cf6fff32f36d",
+          "cveId": "CVE-2026-129494",
+          "kind": "new",
+          "at": "2026-11-16T06:27:11.673Z",
+          "patchStatus": "unknown"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-125823",
+      "title": "Allocation of Resources Without Limits or Throttling vulnerability in Jegstudio Gutenverse...",
+      "severity": "high",
+      "score": 7.5,
+      "patchStatus": "unknown",
+      "packages": [],
+      "advisoryUrl": "https://github.com/advisories/GHSA-fgpr-pjcx-qv58",
+      "references": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2026-125823",
+        "https://patchstack.com/database/wordpress/plugin/gutenverse/vulnerability/wordpress-gutenverse-plugin-4-2-2-denial-of-service-attack-vulnerability?_s_id=cve",
+        "https://github.com/advisories/GHSA-fgpr-pjcx-qv58"
+      ],
+      "reviewed": false,
+      "updatedAt": "2026-11-15T21:30:41Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
+      "knownExploited": false,
+      "history": [
+        {
+          "id": "f4c4e2f9cc754ad520029bac10e01e101d832e25c676150252abb9eb0b631308",
+          "cveId": "CVE-2026-125823",
+          "kind": "new",
+          "at": "2026-11-16T06:27:11.673Z",
+          "patchStatus": "unknown"
+        }
+      ]
+    },
+    {
       "id": "CVE-2026-125799",
       "title": "Insertion of Sensitive Information into Externally-Accessible File or Directory vulnerability in...",
       "severity": "high",
@@ -43559,8 +43739,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T15:30:47Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -43587,8 +43767,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T15:30:47Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -43622,8 +43802,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T15:30:40Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -43652,8 +43832,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T12:31:30Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -43682,8 +43862,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-15T12:31:30Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -43710,8 +43890,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T00:31:51Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -43738,8 +43918,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-14T00:31:51Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -43778,8 +43958,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-14T00:08:50Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -43818,8 +43998,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-14T00:08:00Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -43858,8 +44038,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-14T00:05:58Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -43896,8 +44076,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-13T23:19:41Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -43924,8 +44104,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T21:32:58Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -43952,8 +44132,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T21:32:58Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -43989,8 +44169,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T21:32:53Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -44017,8 +44197,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T21:31:54Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -44055,8 +44235,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-13T21:02:20Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -44095,8 +44275,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-13T20:55:19Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -44132,8 +44312,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-13T20:19:16Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -44176,8 +44356,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-13T19:21:03Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -44219,8 +44399,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-13T18:47:19Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -44250,8 +44430,8 @@
       ],
       "reviewed": false,
       "updatedAt": "2026-11-13T18:33:04Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -44534,8 +44714,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-13T16:39:45Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -44674,8 +44854,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-13T02:44:14Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -44714,8 +44894,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-13T02:42:30Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -44752,8 +44932,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-13T00:49:47Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -45027,8 +45207,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-12T23:37:10Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -45064,8 +45244,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-12T22:55:00Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -45130,8 +45310,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-12T20:37:39Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -45529,8 +45709,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-12T06:30:20Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -47147,8 +47327,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-11T00:23:34Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -47193,8 +47373,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T23:24:49Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -47519,8 +47699,8 @@
       ],
       "reviewed": true,
       "updatedAt": "2026-11-10T23:06:34Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
+      "checkedAt": "2026-11-16T06:27:11.673Z",
+      "advisoryCheckedAt": "2026-11-16T06:27:11.673Z",
       "knownExploited": false,
       "history": [
         {
@@ -47671,259 +47851,604 @@
           "patchStatus": "unknown"
         }
       ]
-    },
-    {
-      "id": "CVE-2026-126080",
-      "title": "Active Support: Possible DoS vulnerability in Active Support safe_constantize",
-      "severity": "high",
-      "score": 7.5,
-      "patchStatus": "available",
-      "packages": [
-        {
-          "name": "activesupport",
-          "ecosystem": "rubygems",
-          "affected": ">= 8.1.0.beta1, < 8.1.4.1",
-          "fixed": "8.1.4.1"
-        },
-        {
-          "name": "activesupport",
-          "ecosystem": "rubygems",
-          "affected": "< 8.0.5.2",
-          "fixed": "8.0.5.2"
-        }
-      ],
-      "advisoryUrl": "https://github.com/advisories/GHSA-8474-xrp6-wh69",
-      "references": [
-        "https://github.com/rails/rails/security/advisories/GHSA-8474-xrp6-wh69",
-        "https://github.com/rails/rails/commit/210ac22d446c8e2625b091e79256806b836eee20",
-        "https://github.com/rails/rails/commit/95aa9e416016524956d4904fed96eaed079580bb",
-        "https://github.com/rails/rails/releases/tag/v8.0.5.2",
-        "https://github.com/rails/rails/releases/tag/v8.1.4.1",
-        "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/activesupport/GHSA-8474-xrp6-wh69.yml",
-        "https://github.com/advisories/GHSA-8474-xrp6-wh69"
-      ],
-      "reviewed": true,
-      "updatedAt": "2026-11-10T21:34:11Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
-      "knownExploited": false,
-      "history": [
-        {
-          "id": "f7f890d5b116664261fbe7bb2268120e3ff748542ea00aadc956250620e96299",
-          "cveId": "CVE-2026-126080",
-          "kind": "new",
-          "at": "2026-11-11T06:15:36.545Z",
-          "patchStatus": "available"
-        }
-      ]
-    },
-    {
-      "id": "CVE-2026-125119",
-      "title": "Mongoose: Connection-level sanitizeFilter not applied",
-      "severity": "high",
-      "score": 7.5,
-      "patchStatus": "available",
-      "packages": [
-        {
-          "name": "mongoose",
-          "ecosystem": "npm",
-          "affected": ">= 6.0.0, < 6.13.12",
-          "fixed": "6.13.12"
-        },
-        {
-          "name": "mongoose",
-          "ecosystem": "npm",
-          "affected": ">= 7.0.0, < 7.8.13",
-          "fixed": "7.8.13"
-        },
-        {
-          "name": "mongoose",
-          "ecosystem": "npm",
-          "affected": ">= 8.0.0, < 8.24.7",
-          "fixed": "8.24.7"
-        },
-        {
-          "name": "mongoose",
-          "ecosystem": "npm",
-          "affected": ">= 9.0.0, < 9.11.4",
-          "fixed": "9.11.4"
-        }
-      ],
-      "advisoryUrl": "https://github.com/advisories/GHSA-gg4r-jv3p-qx3c",
-      "references": [
-        "https://github.com/Automattic/mongoose/security/advisories/GHSA-gg4r-jv3p-qx3c",
-        "https://nvd.nist.gov/vuln/detail/CVE-2026-125119",
-        "https://github.com/Automattic/mongoose/commit/4bb659478be2f30655a7bdd78bc251bdf111cd29",
-        "https://github.com/Automattic/mongoose/commit/4f4f9a79f860786a54133bee2c9af967ec691491",
-        "https://github.com/Automattic/mongoose/commit/83eda6af1489e9ef60bb8eee8cf9ee005771b9d5",
-        "https://github.com/Automattic/mongoose/commit/b8970c25998c23fbccd17f76c0398b902ff4911d",
-        "https://github.com/Automattic/mongoose/releases/tag/6.13.12",
-        "https://github.com/Automattic/mongoose/releases/tag/7.8.13",
-        "https://github.com/Automattic/mongoose/releases/tag/8.24.7",
-        "https://github.com/Automattic/mongoose/releases/tag/9.11.4",
-        "https://github.com/advisories/GHSA-gg4r-jv3p-qx3c"
-      ],
-      "reviewed": true,
-      "updatedAt": "2026-11-10T19:56:12Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
-      "knownExploited": false,
-      "history": [
-        {
-          "id": "449190c5956bd2685e33bd3548a6acfd0af20a82c8b8d3b53b1f7e7a0c577480",
-          "cveId": "CVE-2026-125119",
-          "kind": "new",
-          "at": "2026-11-11T06:15:36.545Z",
-          "patchStatus": "available"
-        }
-      ]
-    },
-    {
-      "id": "CVE-2026-46702",
-      "title": "russh: Post-decompression SSH packet size was not bounded, allowing remote oversized compressed packets",
-      "severity": "high",
-      "score": 7.5,
-      "patchStatus": "available",
-      "packages": [
-        {
-          "name": "russh",
-          "ecosystem": "rust",
-          "affected": ">= 0.34.0, < 0.61.1",
-          "fixed": "0.61.1"
-        }
-      ],
-      "advisoryUrl": "https://github.com/advisories/GHSA-wwx6-x28x-8259",
-      "references": [
-        "https://github.com/Eugeny/russh/security/advisories/GHSA-wwx6-x28x-8259",
-        "https://nvd.nist.gov/vuln/detail/CVE-2026-46702",
-        "https://github.com/Eugeny/russh/commit/2692a6f66edafaf63f463c412b45d8490f7ad06e",
-        "https://github.com/Eugeny/russh/releases/tag/v0.61.1",
-        "https://github.com/advisories/GHSA-wwx6-x28x-8259"
-      ],
-      "reviewed": true,
-      "updatedAt": "2026-11-10T19:45:00Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
-      "knownExploited": false,
-      "history": [
-        {
-          "id": "4751e60a1978cf12738cf749b6c90b6f2e63ba742fed972ac13fb3b26dc00b5e",
-          "cveId": "CVE-2026-46702",
-          "kind": "new",
-          "at": "2026-11-11T06:15:36.545Z",
-          "patchStatus": "available"
-        }
-      ]
-    },
-    {
-      "id": "CVE-2026-125111",
-      "title": "Rack: Multipart parsing allows DoS via unbounded scan buffer growth",
-      "severity": "high",
-      "score": 7.5,
-      "patchStatus": "available",
-      "packages": [
-        {
-          "name": "rack",
-          "ecosystem": "rubygems",
-          "affected": "< 2.2.25",
-          "fixed": "2.2.25"
-        },
-        {
-          "name": "rack",
-          "ecosystem": "rubygems",
-          "affected": ">= 3.0.0, < 3.1.23",
-          "fixed": "3.1.23"
-        },
-        {
-          "name": "rack",
-          "ecosystem": "rubygems",
-          "affected": ">= 3.2.0, < 3.2.8",
-          "fixed": "3.2.8"
-        }
-      ],
-      "advisoryUrl": "https://github.com/advisories/GHSA-5v64-555j-wjxm",
-      "references": [
-        "https://github.com/rack/rack/security/advisories/GHSA-5v64-555j-wjxm",
-        "https://nvd.nist.gov/vuln/detail/CVE-2026-125111",
-        "https://github.com/rack/rack/commit/244e75a840cee0823f86d5d01dc374505a8abed8",
-        "https://github.com/rack/rack/commit/2eaa5b1026a03a43b6537b1a0b233707ba887702",
-        "https://github.com/rack/rack/commit/c9b4698595050838342bd3b5a0fc9ab908065f8f",
-        "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/rack/GHSA-5v64-555j-wjxm.yml",
-        "https://github.com/advisories/GHSA-5v64-555j-wjxm"
-      ],
-      "reviewed": true,
-      "updatedAt": "2026-11-10T19:35:50Z",
-      "checkedAt": "2026-11-15T18:50:24.122Z",
-      "advisoryCheckedAt": "2026-11-15T18:50:24.122Z",
-      "knownExploited": false,
-      "history": [
-        {
-          "id": "aa4265c1caf3d21dee03f86cb5fca093245f32bfeee80eec7e8b58bf9f8306a0",
-          "cveId": "CVE-2026-125111",
-          "kind": "new",
-          "at": "2026-11-10T19:43:24.949Z",
-          "patchStatus": "available"
-        }
-      ]
-    },
-    {
-      "id": "CVE-2026-82894",
-      "title": "Improper Authorization in ContentWorker in Apache OFBiz 24.09 before 24.09.08 on all platforms...",
-      "severity": "high",
-      "score": 7.5,
-      "patchStatus": "unknown",
-      "packages": [],
-      "advisoryUrl": "https://github.com/advisories/GHSA-f4wx-9w48-qfrr",
-      "references": [
-        "https://nvd.nist.gov/vuln/detail/CVE-2026-82894",
-        "https://lists.apache.org/thread.html/7b2syzksp7klt9fvhdg0olldvs2g83lz",
-        "https://github.com/advisories/GHSA-f4wx-9w48-qfrr"
-      ],
-      "reviewed": false,
-      "updatedAt": "2026-11-10T18:32:21Z",
-      "checkedAt": "2026-11-10T19:43:24.949Z",
-      "advisoryCheckedAt": "2026-11-10T19:43:24.949Z",
-      "knownExploited": false,
-      "history": [
-        {
-          "id": "e5be946dea26636cb36f8ff0660b25e8a6293d4d2ec987311f6408431a037845",
-          "cveId": "CVE-2026-82894",
-          "kind": "new",
-          "at": "2026-11-10T19:43:24.949Z",
-          "patchStatus": "unknown"
-        }
-      ]
-    },
-    {
-      "id": "CVE-2026-105325",
-      "title": "Missing check for  ACCOUNTING_UPDATE /  ACCOUNTING_CREATE in accounting in allows user with only...",
-      "severity": "high",
-      "score": 7.5,
-      "patchStatus": "unknown",
-      "packages": [],
-      "advisoryUrl": "https://github.com/advisories/GHSA-p8wv-7phq-325f",
-      "references": [
-        "https://nvd.nist.gov/vuln/detail/CVE-2026-105325",
-        "https://lists.apache.org/thread.html/7b2syzksp7klt9fvhdg0olldvs2g83lz",
-        "https://github.com/advisories/GHSA-p8wv-7phq-325f"
-      ],
-      "reviewed": false,
-      "updatedAt": "2026-11-10T18:32:16Z",
-      "checkedAt": "2026-11-10T19:43:24.949Z",
-      "advisoryCheckedAt": "2026-11-10T19:43:24.949Z",
-      "knownExploited": false,
-      "history": [
-        {
-          "id": "b5bfbe941965149e535d5c0014df6b570623f598750750e61bad75bbca255dd1",
-          "cveId": "CVE-2026-105325",
-          "kind": "new",
-          "at": "2026-11-10T19:43:24.949Z",
-          "patchStatus": "unknown"
-        }
-      ]
     }
   ],
   "events": [
+    {
+      "id": "334a62304271df65eef9a527ddd4e24e17d8b040bea9680e9618a3c85c92339c",
+      "cveId": "CVE-2026-117601",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "79a6dd970c4d1951d6e59c23bbca8e4fba2fd7c476de30dd88e7fb504b4d75c4",
+      "cveId": "CVE-2026-120792",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "edb839699e8376d43fe379d7a58a03404e6d48607f415312c133da409332c6e2",
+      "cveId": "CVE-2026-120778",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "c730353edcb9862447ac69577570961bf567d4e68f2646ca6d133ac1560cbbe0",
+      "cveId": "CVE-2026-126083",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "bd157a65c7285833c6750cd538b4fbcba0adeebd2a57b9e1c249971bebcc7f34",
+      "cveId": "CVE-2026-107223",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "61ffad016cde2dc6e9641f8e045d9b3c855c853cc0d989fc6a7647653ab43d7c",
+      "cveId": "CVE-2026-119191",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "0e1000081ed9d459a01bd1490415de7ef67b9aa6638b02d3ba5a67252fc44b12",
+      "cveId": "CVE-2026-119192",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "ee82050db0a46eff258ab9b38baac15c961e5ab729ab6ca7979a71e4b5831113",
+      "cveId": "CVE-2026-102650",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "f13e38906db7fbe6f9692a32514bb1d88b5968034d1d6c985da8b7c89345bd8d",
+      "cveId": "CVE-2026-119345",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "59d28e00f0c8fd75372b93b7e83936fb30f755d267a5681929f03ba3a70ed40c",
+      "cveId": "CVE-2026-88984",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "53eaa35652e82e2ffd36a2c8983464da2a97e86a68dbf45cc33ef5351c163408",
+      "cveId": "CVE-2026-97705",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "c46e3e47cd87d15281e74fc577a7058d5e4eb33f2ba42e47ca170aa74faf4c8f",
+      "cveId": "CVE-2026-87008",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "a3bdd37bbe0fa66401a920190be4585db1077b3916d9414aa2788cdedef28734",
+      "cveId": "CVE-2026-125114",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "a6d4fe7652279259b6c19a2f8595c00c05d043cd0d410d2c7485b33d00df6b76",
+      "cveId": "CVE-2026-102657",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "7260b837163e688ba49bb657b7b366146dac2e987fc15b0a3373c593467d810a",
+      "cveId": "CVE-2026-102289",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "cbc0e8f48e6f5be772d53fd7995431aca5239cad8caa972f12313adc50066d44",
+      "cveId": "CVE-2026-125107",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "b68d39c8a987ac2e41df43bc88935d0b9ed010b2a59e1fcaea5ac0e799cc07fc",
+      "cveId": "CVE-2026-77604",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "578193046bd68af7299b8f9308afae0f2751fcef28bcd8a074ba12072c01d8d8",
+      "cveId": "CVE-2026-123818",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "76190dfb414de84130bc0f49e963bf4c692123b37e6359c4752ef9d4ffe57c2c",
+      "cveId": "CVE-2026-63655",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "72d10978275a8b1353d02f00d2f1cd774e363ee6b5a0a45e44cee57d6421c6fc",
+      "cveId": "CVE-2026-63501",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "4d0ecf4e921f965b9074cc340bda26447a8d00c3c26a996b029cc6225d90bf20",
+      "cveId": "CVE-2026-123813",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "c70d310ffef4b9d1ae691ff9262a8443588d8390e5fa29c5fe6482a0ae3cbf41",
+      "cveId": "CVE-2026-123811",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "f0351168f7edb657bc49cf62b568241d0fb233b9250c408dc1f105ae33b219d9",
+      "cveId": "CVE-2026-63198",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "fc9b27018d562f613ff22ac54665a4cf79fdc6aa7cb312b5c60571e575f05516",
+      "cveId": "CVE-2026-63197",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "090730087e70189923b55bc14760c39d6a41204478c6eabaa20dc56be5d97675",
+      "cveId": "CVE-2026-123805",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "available"
+    },
+    {
+      "id": "44c22722c321dcca9bdba2f1e037f84b02f81bcfeaa8c4b3fc952fa5d0e91812",
+      "cveId": "CVE-2026-63159",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "3cebea75ebbaa82c39fc64026ceec2ca841c7f2bc96426b22e18c3ee3a1fd977",
+      "cveId": "CVE-2026-63158",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "ff10009506cda3069725b1b4676cc2464d8d777baeae83a5248c5e6074d0608a",
+      "cveId": "CVE-2026-63149",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "961f773c61c5f1256a27661702e2ec84ff5f8ff9d6a02fc60a865132fa71ef5a",
+      "cveId": "CVE-2026-129161",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "24c6e5199447b2a2e875c80162c06e6bac24d63e03ea55ad0d261670276da9d2",
+      "cveId": "CVE-2026-63160",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "f419250c3a935fc4b28b16862b5f76bb46ad53cd6a615559d664296ada6e7dac",
+      "cveId": "CVE-2026-128332",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "7e10349bbfda7af63e292c184385bda75396cb64e9c23799e7d58a37f1403e8a",
+      "cveId": "CVE-2026-128333",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "e9906dd5ed5d1a64d3b07dcd4f7a36dace3016c5398206af2f5405e9d7ec2a6a",
+      "cveId": "CVE-2026-128023",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "082898a912750fb53da6ca581edc1ea8af0e398f83d9d2d3f62530aa95b624c4",
+      "cveId": "CVE-2026-127079",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "420419bb933e8e3a0f1c2e2ee818164988a307500cdf823f78658e677c7cbc3e",
+      "cveId": "CVE-2026-126280",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "8b33b027b2d0d5a1e562ef71ab04bd4330dcbde3aec517a5ded50148c3281811",
+      "cveId": "CVE-2026-126265",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "b62ad4fc778a730cb20aa8d347229f064755ef6bb9a78fb38742c8543cc71cc4",
+      "cveId": "CVE-2026-129540",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "49f82cfbff5141e573fd6f03685b8b53d95ba1de4e7ddefceb92d718fa2003de",
+      "cveId": "CVE-2026-129539",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "97b2d0afccccdb8caf6f534954756f06b4c78b9527ccda797993583ea1145e6e",
+      "cveId": "CVE-2026-129493",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "c2fb603f00ec752dd94bb4e8dd10ee4e57d42822b8a9b8318923cf6fff32f36d",
+      "cveId": "CVE-2026-129494",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "adfd77818b33925f0bb5edf8140b9cab3dc1bf5d63628fac025eca3bf6fdfa7f",
+      "cveId": "CVE-2026-129091",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "d55b48d785c8428ade0db180bca72690a338d6ced0d7a96ac897fd553e780141",
+      "cveId": "CVE-2026-125830",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "90775d488accdcaabfa483362b922235bddcc9a8918964b692bc02fe8d80af12",
+      "cveId": "CVE-2026-125818",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "f4c4e2f9cc754ad520029bac10e01e101d832e25c676150252abb9eb0b631308",
+      "cveId": "CVE-2026-125823",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "bfe6df8ce9217dd4ef7d212d54db75f27c5889958d8e12506d06b41b5cec3845",
+      "cveId": "CVE-2026-125817",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "44cc4c8889d0f47ced58eb9fd05429e9bc595138fe94f9dc0fdc82f085ebdd85",
+      "cveId": "CVE-2026-125822",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "22825bdd37f5cd013bf5ab37a00ab837791272cf0cddf99d87d656cc2da33356",
+      "cveId": "CVE-2026-125804",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "7493dec5b32df7d9ca9e994b6440e1f3367d9a0fdc1bae4a73ae63876b5b69e0",
+      "cveId": "CVE-2026-125760",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "eadb836232708852b94c1853a7ea9fa6e415df4d21143d0d29f9d7bd9a3b7fef",
+      "cveId": "CVE-2026-125798",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "f92bfc1a32418156590cd8e868e1b28a706092e3960861d644a067f8ec1421da",
+      "cveId": "CVE-2026-123962",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "1aeb25435382192f5a59d0e8748545fa0f796d21eb88f7647aababfbd5068281",
+      "cveId": "CVE-2026-125733",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "9313abf50f0964754c5cdaf06ec3ffa7d038b06db0db735410ac04e4c4b36bc5",
+      "cveId": "CVE-2026-128893",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "1d5076d9b35c6df85dda0fc5309ead582e73555127b99e7e9b29598f49260dc7",
+      "cveId": "CVE-2026-125793",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "db61016f56d3f180c209b4c268c651521527f8bcc02b08bdad1a25fad44286d6",
+      "cveId": "CVE-2026-125771",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "43e87da8c77097130608aa6111cab4097fe9c71badd187d019426e72435d0d2c",
+      "cveId": "CVE-2026-125791",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "ffb9f443b34e2109195e7a7e5b20a576cea06874f56b77ff3f8bd87ad2907664",
+      "cveId": "CVE-2026-125447",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "d6537689414ac23d1cd0a6802691361ce5835da53bf86b03645fa8cb4576efeb",
+      "cveId": "CVE-2026-125828",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "d2735b083299394f72ca05ccc8548cada03a4cf662e60d31440492d8b13ea649",
+      "cveId": "CVE-2026-125765",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "857e5933d645f0725b7eb6ee20af02d00464ec2c4c81b7d5de847ac0009d7ecb",
+      "cveId": "CVE-2026-125813",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "19837e62b71d8b331973ae49028d30897f3d3edb28aeef2baaef5f3c0f2e261f",
+      "cveId": "CVE-2026-125764",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "d71a9e2fa5861dd294470bdd2d878dbfd78323a04a170ea796ccf3ca2ddd90e3",
+      "cveId": "CVE-2026-125775",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "bbd28b3fe93863424ae8ea1cc64abf53863fd22f78bc07c15904b0fd2d614715",
+      "cveId": "CVE-2026-125789",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "677e43334e3d9f191e229c261a48642cb54471eba0a08444e9ba8065f38f75fa",
+      "cveId": "CVE-2026-124259",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "b7e4d2a040d4500514c97a88b8b2384a81e67b4f908686c8972837a23fabf0f6",
+      "cveId": "CVE-2026-125790",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "624786162b45bbc2a5845418534c03b6f3837eb5102377898c55d78682d6771d",
+      "cveId": "CVE-2026-124270",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "400c68137c5b14bc95ebc59f705aa30ec09e9a0f900e361b2efe37d706fff587",
+      "cveId": "CVE-2026-124995",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "83c348142c25200998d2a79646805f427a9b83649b87c9cac9e47ef31de6a092",
+      "cveId": "CVE-2026-125443",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "b55c7315c8fb12f9729786b52edde4015fc2713061c2c3c298caf8d50de94565",
+      "cveId": "CVE-2026-124254",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "47174d3164a43e5ce9b6a44774e2765cec63701b5e8e698751eacc5562d51d7b",
+      "cveId": "CVE-2026-129454",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "3c86fbb8635f967cce929b1528c9c44f5bfa6144256963f0665e4d8589e420c5",
+      "cveId": "CVE-2026-116753",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "f6537ae67e5868db53c942589ca21409810803e9f66b2204b78473acec84d321",
+      "cveId": "CVE-2026-120687",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "bfa9533bae012b8159dbe9422af7ef7d47d744c7192316c52de9a0eb96058f91",
+      "cveId": "CVE-2026-129429",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "e6c8efad9f5496c6a6fe23c221c2718034c6a6e7318fe990ebf9b7ead2e8b109",
+      "cveId": "CVE-2026-129432",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "5c1b6993decd9de3fbcbd9b317eb097ab46fd7b6ce0671fe4e85058d5bdb1d25",
+      "cveId": "CVE-2026-129431",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "1734b19041c0a7f2ef33d28aca6dcb876ccae57dd7e4db7fa240bb783e0db18b",
+      "cveId": "CVE-2026-124969",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "14bd2f9f77a85880e4bf7d9e7bed16c64814d2d876c75ae1f76f181e55b98876",
+      "cveId": "CVE-2026-124680",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "4a96477f8ba6e58e2a7968f793cb960cecc936ac43eb0079e63e30fc273260fe",
+      "cveId": "CVE-2026-9661",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "e7fb4a00c25d885b29d03d3a26416348473473cf4509bd23884096723f606dd6",
+      "cveId": "CVE-2025-53699",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "c0387d0171620d8c4769a368c7b581bb638aac458f8681ec7fde54fe7e3dd16d",
+      "cveId": "CVE-2026-110278",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "45533d90a8bfccc9c4a47ed4bbebe07f6a68a965e576804c1ef5c7b75273f3ec",
+      "cveId": "CVE-2025-53698",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "3c2bacded7a245530fb95adfd27fdcaf6a4bcd34ae4b10652b961f2d3489755f",
+      "cveId": "CVE-2026-70640",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "8962c7222c123650f87532e1122727349e1ff5c4895e4a0d9cc057b83b52aa22",
+      "cveId": "CVE-2026-89037",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "2e41e9839408df029334af2bc785c21f67d1f9e253fbab79c2300796602ce3ff",
+      "cveId": "CVE-2026-127216",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "c768e8fb47a58b691d5477d1733ec387abe5a89b8e453d8e7a428424cfd9e173",
+      "cveId": "CVE-2026-125912",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
+    {
+      "id": "15155b48ecaedfb8d9981fa89740a7a29ce4154e1e7fbef284afca11661f680e",
+      "cveId": "CVE-2026-107152",
+      "kind": "new",
+      "at": "2026-11-16T06:27:11.673Z",
+      "patchStatus": "unknown"
+    },
     {
       "id": "334a62304271df65eef9a527ddd4e24e17d8b040bea9680e9618a3c85c92339c",
       "cveId": "CVE-2026-117601",
@@ -50827,601 +51352,6 @@
       "cveId": "CVE-2026-42784",
       "kind": "new",
       "at": "2026-11-14T06:20:42.799Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "7bc09b3d3e235a9d13c363d3dedc7fc14d406cb58c55193975140295f2a8fb92",
-      "cveId": "CVE-2026-124009",
-      "kind": "new",
-      "at": "2026-11-14T06:20:42.799Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "f4e23ef2f9da419858c5c510e8135327dbd8f6e2aff53050aee5f1883b48d00a",
-      "cveId": "CVE-2026-124015",
-      "kind": "new",
-      "at": "2026-11-14T06:20:42.799Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "50dbd56b0cb09815c773ea98e93133f93e5cd4821717bfe54ac5b82a352a1d0f",
-      "cveId": "CVE-2026-128082",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "available"
-    },
-    {
-      "id": "c5b0ec0db44218bdb8342be2185d24fb4e407d34afbf1206d0b328f980100597",
-      "cveId": "CVE-2026-128081",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "available"
-    },
-    {
-      "id": "11a6bfd92508fd00dbde3ea372a464a5bf6549a3820fadea46efb5979873e42f",
-      "cveId": "CVE-2026-126191",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "available"
-    },
-    {
-      "id": "79a6dd970c4d1951d6e59c23bbca8e4fba2fd7c476de30dd88e7fb504b4d75c4",
-      "cveId": "CVE-2026-120792",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "available"
-    },
-    {
-      "id": "edb839699e8376d43fe379d7a58a03404e6d48607f415312c133da409332c6e2",
-      "cveId": "CVE-2026-120778",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "available"
-    },
-    {
-      "id": "bd157a65c7285833c6750cd538b4fbcba0adeebd2a57b9e1c249971bebcc7f34",
-      "cveId": "CVE-2026-107223",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "available"
-    },
-    {
-      "id": "f13e38906db7fbe6f9692a32514bb1d88b5968034d1d6c985da8b7c89345bd8d",
-      "cveId": "CVE-2026-119345",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "available"
-    },
-    {
-      "id": "59d28e00f0c8fd75372b93b7e83936fb30f755d267a5681929f03ba3a70ed40c",
-      "cveId": "CVE-2026-88984",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "available"
-    },
-    {
-      "id": "c46e3e47cd87d15281e74fc577a7058d5e4eb33f2ba42e47ca170aa74faf4c8f",
-      "cveId": "CVE-2026-87008",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "available"
-    },
-    {
-      "id": "a3bdd37bbe0fa66401a920190be4585db1077b3916d9414aa2788cdedef28734",
-      "cveId": "CVE-2026-125114",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "available"
-    },
-    {
-      "id": "7260b837163e688ba49bb657b7b366146dac2e987fc15b0a3373c593467d810a",
-      "cveId": "CVE-2026-102289",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "available"
-    },
-    {
-      "id": "f0351168f7edb657bc49cf62b568241d0fb233b9250c408dc1f105ae33b219d9",
-      "cveId": "CVE-2026-63198",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "available"
-    },
-    {
-      "id": "fc9b27018d562f613ff22ac54665a4cf79fdc6aa7cb312b5c60571e575f05516",
-      "cveId": "CVE-2026-63197",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "available"
-    },
-    {
-      "id": "bfdf16a23d5951c53756bd104dd5548855534dc20da313b96371a3f5f27041fb",
-      "cveId": "CVE-2026-41894",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "available"
-    },
-    {
-      "id": "44c22722c321dcca9bdba2f1e037f84b02f81bcfeaa8c4b3fc952fa5d0e91812",
-      "cveId": "CVE-2026-63159",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "3cebea75ebbaa82c39fc64026ceec2ca841c7f2bc96426b22e18c3ee3a1fd977",
-      "cveId": "CVE-2026-63158",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "ff10009506cda3069725b1b4676cc2464d8d777baeae83a5248c5e6074d0608a",
-      "cveId": "CVE-2026-63149",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "f5518ed289cd3de1978bde5c289616bad41fc8c69ba53023ee7d3339c27c50f8",
-      "cveId": "CVE-2026-129167",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "1ee2801906848fc2990cb3e043c63f67794d2bd419d0f68323120fb3377cbe3b",
-      "cveId": "CVE-2026-129171",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "90269bd291f9778fbb898c36e599abeb898f56c7bab9b7fcce77824405b1f70b",
-      "cveId": "CVE-2026-129165",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "961f773c61c5f1256a27661702e2ec84ff5f8ff9d6a02fc60a865132fa71ef5a",
-      "cveId": "CVE-2026-129161",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "35cbd7b80157755482731831d0848fb77410f520b5e893de6b2cd5579b0e6bc1",
-      "cveId": "CVE-2026-95377",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "aceaee2c5d4e4dab38ac28d2ba558f9d35ae67452b3bf2336eb2567543b0a2b8",
-      "cveId": "CVE-2026-123965",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "58cac3b43785ee4b367b2839a8090e2c901e4962516eb3b0b2eead046385fb86",
-      "cveId": "CVE-2026-129124",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "d3d0048872a22a5f7ca248b6e49dfdbe3014f7e3c853e50c526dc04b842b2d30",
-      "cveId": "CVE-2026-129125",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "c1c315e43e56ac57f6877978a91e1fc9905901f942d08af0f2a489f82e2f0f02",
-      "cveId": "CVE-2026-129126",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "1f2e96c9d3ac212a3a2335cde7ce433a4796ee6a33f9bb8978df0da4307bf03c",
-      "cveId": "CVE-2026-95614",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "cfc65847d3a4e34149b3c24760c77074bb5bd6746f145e1c48f66d9f4e64706d",
-      "cveId": "CVE-2026-63079",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "a150bcbfaf3345ff3c5eda590d8e654fd2828d2a9de256142439d9617c2927f0",
-      "cveId": "CVE-2026-103813",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "11f68a48cc2321abcf9493f150ca99d17c19a05deb5e62beabd7505116b89b53",
-      "cveId": "CVE-2026-129110",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "2971c55d423408bf953c7d12b13d22dca23146eae3a97e0e86aba97144d55a17",
-      "cveId": "CVE-2026-55335",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "24c6e5199447b2a2e875c80162c06e6bac24d63e03ea55ad0d261670276da9d2",
-      "cveId": "CVE-2026-63160",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "8da36e6940d02c8fe72749d1ab2203ec900bdbcfaf1a691401f95e619a11480f",
-      "cveId": "CVE-2026-63146",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "1ebb435d4bf98c2542fde47abda691e81a463efcc24955b3d46905f1b7356dd2",
-      "cveId": "CVE-2026-58800",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "9c0f2a719e1a17844f57f2fd6b7b6740c195adc19e38448bd4ff6b811a0512c8",
-      "cveId": "CVE-2026-58780",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "189e92089edfa98bc88bd1ed0c818ee6dd2935516c0b6c0e327d514b583e6e34",
-      "cveId": "CVE-2026-58681",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "b33cecef908cacafda808dc64a4f0f747a281fdeb1d60ad3ab5e82211c3e0efc",
-      "cveId": "CVE-2026-58736",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "03e67ffc05d5eed03cc4ca6e7da4250494103aee0dee1c13194d60a69b25597e",
-      "cveId": "CVE-2026-57010",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "afa40c31fce3264edecb562f7cde53744b70ead48219832a2ad9d97fd4bfc4e0",
-      "cveId": "CVE-2026-58799",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "8dcc30dd8cb965c411432ee5163a468c745a726aee1eecfc5f7ff296541d864f",
-      "cveId": "CVE-2026-57047",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "b9fe3b2a3a7e40109c58f91739b15536320411fb9c54cc63eb58c45ea1952b6c",
-      "cveId": "CVE-2026-56971",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "037ce3e2e1b2573b6e14107636abedccf4d01de914d88c68d2a9d0a178dc0b52",
-      "cveId": "CVE-2026-55362",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "d1e8056801e0149e32977bcba3585e4d0bb3f3f45fb97e44ccab0eb81cf3d0a4",
-      "cveId": "CVE-2026-125855",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "dc10823b92628c1c15845ff6d14d18a0173344f191641d54b28ced98aed5828b",
-      "cveId": "CVE-2026-124970",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "f51a6a4c253c61f8eff266936a73b0a6f8c0460f5b43ae34d24c6e8ce80a5ca1",
-      "cveId": "CVE-2026-124415",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "456d9a55df885bcc0d7b7aca3ca8e82d7d95519ba67fbddbe19f72679cf73cbe",
-      "cveId": "CVE-2026-109445",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "d94e6d7c3316090e45b81dd3f47bf9822c64992ef7d9811c177dd702d3a937a6",
-      "cveId": "CVE-2026-125851",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "e868133e6c80ce2b5ce9ac85001d165e0a486020151126b869df9e1c0788a5d5",
-      "cveId": "CVE-2026-58722",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "6b2ac7fd88a20217d8bbca38582664ebc5c7cf4ed4936b17777c361f2f7c37af",
-      "cveId": "CVE-2026-75495",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "174b7022518ed6f4cd2529009aee81a6058af57cc22b7843e34fa7e5b13093fa",
-      "cveId": "CVE-2026-75491",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "f419250c3a935fc4b28b16862b5f76bb46ad53cd6a615559d664296ada6e7dac",
-      "cveId": "CVE-2026-128332",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "7e10349bbfda7af63e292c184385bda75396cb64e9c23799e7d58a37f1403e8a",
-      "cveId": "CVE-2026-128333",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "3ab211c3de8aab275adad2558124ecef023e2873f62abf4da3846896b46f7da3",
-      "cveId": "CVE-2026-128046",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "c769aed29d586ca4c7cf11406187b114d9ed4cac7073ad88aab9f8f4e41ad03b",
-      "cveId": "CVE-2026-128047",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "8751372522b89f58697128d6e58a9f6cd1b75750e3fc60afc9d4607d7b766943",
-      "cveId": "CVE-2026-128049",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "4807da8f9e423abe64627a587b3abec4919b2b4db2e749f63555a51f45e7ff0f",
-      "cveId": "CVE-2026-128027",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "e9906dd5ed5d1a64d3b07dcd4f7a36dace3016c5398206af2f5405e9d7ec2a6a",
-      "cveId": "CVE-2026-128023",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "e44b6d7667d85ec37028904c808d584b198c24a71a303692c13f314cffd02634",
-      "cveId": "CVE-2026-126952",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "8ac4119be8337a3bf1d8b21877dd211e3cc3c390d732563be4449697693f5660",
-      "cveId": "CVE-2026-127080",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "849abdd816950cd862f6811104b135ed8abb4c650f0fe1b7c929fd63585d0d49",
-      "cveId": "CVE-2026-126953",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "77b3c0500591d89b74751d3364dbb5385a57efaa05700c81800032c39b3cd6a5",
-      "cveId": "CVE-2026-127073",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "ac4ad9dc1e8d54a48dabcca813fdb785339473c6ab122d7995df4a2904a05bf3",
-      "cveId": "CVE-2026-126937",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "3bab99bb0d492e0b7b978df1ca723637aa2a5c1ba7d4e658e1f97d886b648554",
-      "cveId": "CVE-2026-128014",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "082898a912750fb53da6ca581edc1ea8af0e398f83d9d2d3f62530aa95b624c4",
-      "cveId": "CVE-2026-127079",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "9d360115b67f14ed0df854335800f523e51d213e84d6f2d3f1f3e239f6c14fd5",
-      "cveId": "CVE-2026-126945",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "12cefd6c4d2a4a0d12c4dea4775d430f66243ecc55878133190f4b68b5b768db",
-      "cveId": "CVE-2026-126473",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "469450424afa9e26f9e0e61234d0d5beba582fa360485dcf1100355c48bd308d",
-      "cveId": "CVE-2026-126380",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "240cfbcc0563d15f4f8514dd9a4513da083163fac557d0520171b2607e11e2b1",
-      "cveId": "CVE-2026-126377",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "58bcb9af7f84a1eafd9241b13aa9138ac18259d6e0f75e5094187658188ddbc7",
-      "cveId": "CVE-2026-126315",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "826d22d5f3bb2b45266d1a3b790c72f8ea16edbdc577bf86b5d1092c39ae1af6",
-      "cveId": "CVE-2026-126378",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "420419bb933e8e3a0f1c2e2ee818164988a307500cdf823f78658e677c7cbc3e",
-      "cveId": "CVE-2026-126280",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "01102ce9acfaf792007e286a9cc3dca9debdd8c905ee5bdcf4758975eb346aff",
-      "cveId": "CVE-2026-126269",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "f36428a238b0f0ccc8643c8a9913b921b7812af14886662525745b8cf043e15a",
-      "cveId": "CVE-2026-126274",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "8c913047e4a82e2c7c8e204615606a52682bd9c608b1b3559072d81efb5fb27f",
-      "cveId": "CVE-2026-126273",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "022b5d54149d8ded55f79d01f0884763ac4324f760e2c36b6e9214fc49e3e055",
-      "cveId": "CVE-2026-119077",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "8b33b027b2d0d5a1e562ef71ab04bd4330dcbde3aec517a5ded50148c3281811",
-      "cveId": "CVE-2026-126265",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "3fe367dc7a8825a5e878ec1017502d7ea0b9994a5c2d3695867996e8172a19a2",
-      "cveId": "CVE-2026-125055",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "1a638a0fb2257b3a8f31c877b858fc7020fe6b24796a7eb4fe6382d37b7ba897",
-      "cveId": "CVE-2026-120864",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "8bc8126feaa867f0801781218e49611951ef2e062417ede4ee90f76dd1f89b7c",
-      "cveId": "CVE-2026-111334",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "15155b48ecaedfb8d9981fa89740a7a29ce4154e1e7fbef284afca11661f680e",
-      "cveId": "CVE-2026-107152",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "744bcbb47dca1efa4eb3f7f5194a38442e262360261dfbb0dd5a73d2478c7e0c",
-      "cveId": "CVE-2026-59630",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "2a56287cc4c6dfc00610656ac88ca4b5308df17c086fb3b71b437da69648326e",
-      "cveId": "CVE-2026-63174",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
-      "patchStatus": "unknown"
-    },
-    {
-      "id": "04b2922e7d74e73e137bd27d65f3c325eec4c40f84ef92f1d2baacceabe5a6f2",
-      "cveId": "CVE-2026-63163",
-      "kind": "new",
-      "at": "2026-11-13T19:40:47.968Z",
       "patchStatus": "unknown"
     }
   ]
